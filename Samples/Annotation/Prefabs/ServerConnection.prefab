@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _useLocalServer: 0
-  _url: littlebughunter.com/esa
+  _url: https://littlebughunter.com/esa
   _port: 80
   _localPort: 3000
   _applicationId: TwoFingerSample

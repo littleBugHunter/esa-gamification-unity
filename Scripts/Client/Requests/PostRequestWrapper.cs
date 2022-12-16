@@ -18,11 +18,10 @@ namespace ImageAnnotation.Client.Requests
         {
             var basePath = ServerConnection.Instance.BasePath;
             var path = basePath + endpoint;
-            this.request = new UnityWebRequest(path, "POST");
             byte[] jsonBytes = new System.Text.UTF8Encoding().GetBytes(json);
-            request.uploadHandler = new UploadHandlerRaw(jsonBytes);
-            request.downloadHandler = new DownloadHandlerBuffer();
+            this.request = new UnityWebRequest(path, "POST", new DownloadHandlerBuffer(), new UploadHandlerRaw(jsonBytes));
             request.SetRequestHeader("Content-Type", "application/json");
+            request.uploadHandler.contentType = "application/json";
             this.getResult = getResult;
             request.SendWebRequest();
         }
