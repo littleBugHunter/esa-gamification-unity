@@ -3,18 +3,19 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 using static UnityEngine.EventSystems.EventTrigger;
 
-namespace ImageAnnotation
+namespace ImageAnnotation.Marking
 {
-    [AddComponentMenu("Image Annotation/Crater Logger")]
+    [AddComponentMenu("Image Annotation/Marking/Crater Logger")]
     public class CraterLogger : MonoBehaviour
     {
         [SerializeField]
         CraterVisual _craterVisualPrefab;
-        [SerializeField]
-        RawImage _targetTexture;
+        [SerializeField, FormerlySerializedAs("_targetTexture")]
+        public RawImage TargetTexture;
 
         List<CraterEntry> _entries = new List<CraterEntry>();
         List<CraterVisual> _visuals = new List<CraterVisual>();
@@ -35,14 +36,13 @@ namespace ImageAnnotation
             {
                 RemoveCrater(_overridingEntries[i]);
             }
-            Debug.Log(entry.Position);
 
             _entries.Add(entry);
-            Vector2 localPos = Vector2.Scale(entry.Position, new Vector2(1.0f/_targetTexture.texture.width, 1.0f/_targetTexture.texture.height)) - Vector2.one * 0.5f;
+            Vector2 localPos = Vector2.Scale(entry.Position, new Vector2(1.0f/TargetTexture.texture.width, 1.0f/TargetTexture.texture.height)) - Vector2.one * 0.5f;
             localPos.y *= -1;
-            var _visual = Instantiate(_craterVisualPrefab, _targetTexture.transform);
+            var _visual = Instantiate(_craterVisualPrefab, TargetTexture.transform);
             _visual.transform.localPosition = localPos;
-            _visual.transform.localScale = Vector3.one * entry.Radius / _targetTexture.texture.width;
+            _visual.transform.localScale = Vector3.one * entry.Radius / TargetTexture.texture.width;
             _visuals.Add(_visual);
         }
         public void RemoveClosest(Vector2 position, float maxDistance = float.MaxValue)
@@ -76,9 +76,10 @@ namespace ImageAnnotation
         public void Clear() {
             _entries.Clear();
             foreach(var mark in _visuals) {
-                Destroy(mark);
+                mark.Delete();
             }
             _visuals.Clear();
+            _overridingEntries.Clear();
         }
 
         public IEnumerable<CraterEntry> GetCraters() {
