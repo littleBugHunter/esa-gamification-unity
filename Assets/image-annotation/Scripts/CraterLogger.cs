@@ -1,3 +1,4 @@
+using ImageAnnotation.Marking.Visuals;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -7,6 +8,7 @@ using static UnityEngine.EventSystems.EventTrigger;
 
 namespace ImageAnnotation
 {
+    [AddComponentMenu("Image Annotation/Crater Logger")]
     public class CraterLogger : MonoBehaviour
     {
         [SerializeField]

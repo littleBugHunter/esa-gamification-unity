@@ -3,7 +3,7 @@
  * <author>Paul Nasdalack</author>
  */
 
-namespace ImageAnnotation
+namespace ImageAnnotation.Marking.Visuals
 {
     public interface IDeletableCraterVisual
     {

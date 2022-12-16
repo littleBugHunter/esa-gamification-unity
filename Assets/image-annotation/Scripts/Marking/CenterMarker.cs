@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ImageAnnotation
+namespace ImageAnnotation.Marking
 {
+    [AddComponentMenu("Image Annotation/Marking/Center Marker")]
     public class CenterMarker : MonoBehaviour
     {
         [SerializeField]

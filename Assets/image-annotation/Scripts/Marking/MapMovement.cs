@@ -3,8 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ImageAnnotation
+namespace ImageAnnotation.Marking
 {
+    [AddComponentMenu("Image Annotation/Marking/Map Movement")]
     public class MapMovement : MonoBehaviour
     {
         Touch[] _lastTouches = new Touch[0];
