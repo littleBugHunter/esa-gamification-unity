@@ -30,7 +30,7 @@ namespace ImageAnnotation
                 var tex2d = loadImage.GetResult();
                 var child = Instantiate(imagePrefab, transform);
                 child.texture = tex2d;
-                yield return new WaitForSeconds(Random.RandomRange(0.2f,0.9f));
+                yield return new WaitForSeconds(Random.Range(0.2f,0.9f));
             }
         }
     }

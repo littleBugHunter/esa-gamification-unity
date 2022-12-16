@@ -1,7 +1,10 @@
 {
     "name": "ImageAnnotation",
     "rootNamespace": "ImageAnnotation",
-    "references": [],
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:776d03a35f1b52c4a9aed9f56d7b4229"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
