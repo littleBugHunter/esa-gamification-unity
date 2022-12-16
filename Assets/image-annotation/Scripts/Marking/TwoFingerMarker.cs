@@ -71,7 +71,21 @@ namespace ImageAnnotation.Marking
         {
             UnityEngine.InputSystem.EnhancedTouch.Touch.onFingerDown -= FingerDown;
             UnityEngine.InputSystem.EnhancedTouch.Touch.onFingerUp   -= FingerUp;
-            
+            foreach (var fingerVisual in _fingerVisuals)
+            {
+                Destroy(fingerVisual.gameObject);
+            }
+            _fingerVisuals.Clear();
+            foreach (var lineVisual in _lineVisuals)
+            {
+                Destroy(lineVisual.gameObject);
+            }
+            _lineVisuals.Clear();
+            if (_centerVisual != null)
+            {
+                Destroy(_centerVisual.gameObject);
+                _centerVisual = null;
+            }
         }
         private void Update()
         {

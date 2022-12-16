@@ -3,9 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ImageAnnotation
+namespace ImageAnnotation.Marking
 {
-    [Serializable]
     public class CraterEntry 
     {
         public Vector2 Position;
