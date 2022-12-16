@@ -13,8 +13,9 @@ using UnityEngine.UI;
 using UnityEngine.UIElements;
 using UnityEngine.VFX;
 
-namespace ImageAnnotation
+namespace ImageAnnotation.Marking
 {
+    [AddComponentMenu("Image Annotation/Marking/Two Finger Marker")]
     public class TwoFingerMarker : MonoBehaviour
     {
         #region Serialized Fields

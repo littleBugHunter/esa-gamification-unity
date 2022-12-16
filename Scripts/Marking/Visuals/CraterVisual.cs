@@ -7,8 +7,9 @@ using UnityEngine;
 using NaughtyAttributes;
 using UnityEngine.UI;
 
-namespace ImageAnnotation
+namespace ImageAnnotation.Marking.Visuals
 {
+    [AddComponentMenu("Image Annotation/Marking/Visual/Crater Visual")]
     public class CraterVisual : MonoBehaviour, IDeletableCraterVisual
     {
         #region Serialized Fields
