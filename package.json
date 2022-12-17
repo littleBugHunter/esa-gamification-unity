@@ -1,0 +1,22 @@
+{
+	"name": "com.paul-nasdalack.image-annotation",
+	"version": "1.0.0",
+	"displayName": "ESA Image Annotation",
+	"description": "This is an example package",
+	"unity": "2021.3",
+	"unityRelease": "11f1",
+	"dependencies": {
+		"com.dbrizov.naughtyattributes": "https://github.com/dbrizov/NaughtyAttributes.git#upm",
+		"com.unity.inputsystem": "1.4.4"
+   },
+   "keywords": [
+	  "esa",
+	  "annotation",
+	  "gamification"
+	],
+	"author": {
+	  "name": "Paul Nasdalack",
+	  "url": "https://www.paul-nasdalack.com"
+	}
+  }
+  
