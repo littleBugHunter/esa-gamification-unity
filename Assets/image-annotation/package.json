@@ -14,6 +14,13 @@
 	  "annotation",
 	  "gamification"
 	],
+	"samples": [
+		{
+		  "displayName": "Annotation Samples",
+		  "description": "Some Samples for Image Annotation UIs",
+		  "path": "Samples~/Annotation"
+		}
+	  ],
 	"author": {
 	  "name": "Paul Nasdalack",
 	  "url": "https://www.paul-nasdalack.com"
