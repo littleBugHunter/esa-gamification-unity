@@ -6,7 +6,6 @@
 	"unity": "2021.3",
 	"unityRelease": "11f1",
 	"dependencies": {
-		"com.dbrizov.naughtyattributes": "https://github.com/dbrizov/NaughtyAttributes.git#upm",
 		"com.unity.inputsystem": "1.4.4"
    },
    "keywords": [
