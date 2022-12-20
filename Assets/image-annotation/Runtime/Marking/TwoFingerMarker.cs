@@ -183,9 +183,12 @@ namespace ImageAnnotation.Marking
         {
             var scale = 1.0f / _targetImage.transform.localScale.x;
             var position = _targetImage.transform.InverseTransformPoint((_fingers[0].screenPosition));
-            Transform visual = _fingerVisuals[0];
-            visual.localPosition = position;
-            visual.localScale = Vector2.one * scale;
+            if(_fingerVisuals.Count > 0)
+            {
+                Transform visual = _fingerVisuals[0];
+                visual.localPosition = position;
+                visual.localScale = Vector2.one * scale;
+            }
         }
         private void UpdateCenterMarking()
         {
