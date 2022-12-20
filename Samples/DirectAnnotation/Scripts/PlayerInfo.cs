@@ -16,7 +16,7 @@ public class PlayerInfo : MonoBehaviour
     {
         if(Name != null)
         {
-            Name.name = ServerConnection.Instance.UserName;
+            Name.text = ServerConnection.Instance.UserName;
         }
         if(Rank != null || PicturesMarked != null)
         {
