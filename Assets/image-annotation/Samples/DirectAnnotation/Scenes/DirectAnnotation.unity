@@ -1697,7 +1697,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: littleBugHunter
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d798a3c1b2db3ce4399268da0f6aa6a8, type: 2}
   m_sharedMaterial: {fileID: 6174162371439251945, guid: d798a3c1b2db3ce4399268da0f6aa6a8,
