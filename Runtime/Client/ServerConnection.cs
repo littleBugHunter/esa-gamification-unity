@@ -3,13 +3,9 @@
  */
 using NaughtyAttributes;
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Text;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
-using UnityEngine.InputSystem.EnhancedTouch;
 
 namespace ImageAnnotation.Client
 {

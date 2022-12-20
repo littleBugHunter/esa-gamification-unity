@@ -1,0 +1,16 @@
+{
+    "name": "paul-nasdalack.image-annotation.samples.direct-annotation-editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0ea1e0446d8d16d4ea9cc290c210d843"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
