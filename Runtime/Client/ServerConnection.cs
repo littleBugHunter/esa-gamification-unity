@@ -39,6 +39,10 @@ namespace ImageAnnotation.Client
         private int _port = 80;
         [SerializeField, EnableIf("_useLocalServer")]
         private int _localPort = 3000;
+        /// <summary>
+        /// The Base Path is the URL with the Port added to it (if Port != 80)
+        /// This is used to call the REST API
+        /// </summary>
         public string BasePath => basePath;
         private string basePath;
         [SerializeField]

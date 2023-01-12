@@ -9,6 +9,9 @@ using UnityEngine.UI;
 
 namespace ImageAnnotation.Marking.Visuals
 {
+    /// <summary>
+    /// A Circle to be displayed around marked craters
+    /// </summary>
     [AddComponentMenu("Image Annotation/Marking/Visual/Crater Visual")]
     public class CraterVisual : MonoBehaviour, IDeletableCraterVisual
     {
@@ -19,7 +22,7 @@ namespace ImageAnnotation.Marking.Visuals
             SpriteSwap,
             Animator
         }
-        [SerializeField]
+        [SerializeField, InfoBox("This should be placed on a UI Component showing a circle with a radius of 1.0")]
         private Mode _mode;
 
         [SerializeField, ShowIf("_mode", Mode.SpriteSwap)]

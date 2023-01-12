@@ -1,4 +1,4 @@
-/* A C# Component
+/* The Client for Puzzle Mode
  * <author>Paul Nasdalack</author>
  */
 using NaughtyAttributes;
@@ -9,20 +9,37 @@ using ImageAnnotation.Client.Requests;
 using ImageAnnotation.Marking;
 using System.Collections.Generic;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 namespace ImageAnnotation.Client
 {
+    /// <summary>
+    /// The PuzzleModeClient Manages the Execution of Puzzle Mode Marking.
+    /// Puzzle Mode Marking presents the Player with an Array of small known and unknown Images they have to mark in succession.
+    /// After all Images have been marked, they are sent off to the server, which then evaluates the known images to send back a Score
+    /// </summary>
     public class PuzzleModeClient : MonoBehaviour
     {
-        #region Serialized Fields
-        [SerializeField]
-        int _puzzleSize = 5;
-        [SerializeField, Required]
-        private MarkingPanel _markingPanel;
+		#region Serialized Fields
+		/// <summary>
+		/// How many Images will be shown to the player?
+        /// Keep this Value Reasonable high. Remember there need to be known images mixed in.
+		/// </summary>
+        [SerializeField, FormerlySerializedAs("_puzzleSize"), InfoBox("How many Images will be shown to the player?\nKeep this Value Reasonable high. Remember there need to be known images mixed in.")]
+		public int PuzzleSize = 5;
+        /// <summary>
+        /// A Reference to the Marking Panel Instance, where the individual Images will be shown and marked
+        /// </summary>
+        [SerializeField, FormerlySerializedAs("_markingPanel"), Required]
+        public MarkingPanel MarkingPanel;
         [Serializable]
         public class PuzzleDoneEvent : UnityEvent<PuzzleScore>
         { }
-        [SerializeField]
+		/// <summary>
+		/// This Event will be invoked once all puzzles have been completed and a score was calculated.
+		/// A <c>PuzzleScore</c> Object is sent as a parameter, to retrieve the score calculated by the Server.
+		/// </summary>
+		[SerializeField]
         public PuzzleDoneEvent OnPuzzleDone = new PuzzleDoneEvent();
         #endregion
         #region Private Variables
@@ -61,32 +78,70 @@ namespace ImageAnnotation.Client
             public string user;
         }
 
+        /// <summary>
+        /// A Score Object holding the score data calculated by the server.
+        /// It is sent via the <c>OnPuzzleDone</c> event
+        /// </summary>
         [Serializable]
         public struct PuzzleScore
         {
             [Serializable]
             public struct AbsoluteResults
             {
+                /// <summary>
+                /// How many craters were in all known images
+                /// </summary>
                 int totalPossible;
+                /// <summary>
+                /// How many craters were correctly marked
+                /// </summary>
                 int totalHit;
+                /// <summary>
+                /// How many craters were left unmarked
+                /// </summary>
 				int totalMissed;
+				/// <summary>
+				/// How many marks were created in places where no crater was present
+				/// </summary>
 				int totalFalse;
             }
+            /// <summary>
+            /// Information about the absolute numbers of craters marked in all <b>known</b> images.
+            /// It is not advised to show these numbers to the players.
+            /// </summary>
             public AbsoluteResults absolute;
             [Serializable]
             public struct RelativeResults
             {
+                /// <summary>
+                /// Percentage (0-1) of craters marked vs the total amount of craters present in the image
+                /// </summary>
                 float hit;
+				/// <summary>
+				/// Percentage (0-1) of craters that were left unmarked
+				/// </summary>
 				float missed;
+				/// <summary>
+				/// Percentage (0-1) of marks placed without a crater being present
+				/// </summary>
 				float invalid;
             }
-            public RelativeResults relative;
+			/// <summary>
+			/// Information about the relative numbers of craters marked in all <b>known</b> images.
+			/// </summary>
+			public RelativeResults relative;
+            /// <summary>
+            /// An accuracy score (0-1) calculated by the server. We should reward very high accuracy.
+            /// </summary>
             public float accuracy;
         }
         #endregion
         #region Unity Functions
         #endregion
         #region Public Functions
+        /// <summary>
+        /// Requests a Puzzle List from the Server and opens the Puzzle Panel for marking. OnPuzzleDone will be called once marking of all puzzles is complete and the server responded with a score.
+        /// </summary>
         public void StartPuzzle()
         {
             StartCoroutine(PuzzleCoroutine());
@@ -96,8 +151,8 @@ namespace ImageAnnotation.Client
     	#region Private Functions
         IEnumerator PuzzleCoroutine()
         {
-            _markingPanel.Open();
-            var puzzleRequest = new GetObjectJson<Puzzle>("puzzle", new[] {"user="+ServerConnection.Instance.UserName, "amount="+ _puzzleSize.ToString()});
+            MarkingPanel.Open();
+            var puzzleRequest = new GetObjectJson<Puzzle>("puzzle", new[] {"user="+ServerConnection.Instance.UserName, "amount="+ PuzzleSize.ToString()});
             yield return new WaitUntil(() => puzzleRequest.isDone);
             var puzzle = puzzleRequest.GetResult();
             var solved = new SolvedPuzzle();
@@ -113,7 +168,7 @@ namespace ImageAnnotation.Client
                 yield return new WaitUntil(() => imageRequest.isDone);
                 var texture = imageRequest.GetResult();
                 var sliceDone = false;
-                _markingPanel.StartMarking(texture, (entries) =>
+                MarkingPanel.StartMarking(texture, (entries) =>
                 {
                     var solvedSlice = new SolvedPuzzle.Slice();
                     solvedSlice.image = slice.image;
@@ -136,7 +191,7 @@ namespace ImageAnnotation.Client
             var scoreRequest = new PostObjectJson<PuzzleScore>("submit/", solvedJson);
             yield return new WaitUntil(() => scoreRequest.isDone);
             var score = scoreRequest.GetResult();
-            _markingPanel.Close();
+            MarkingPanel.Close();
             OnPuzzleDone.Invoke(score);
         }
     	#endregion
