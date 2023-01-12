@@ -15,6 +15,7 @@ Go to the Unity Package Manager and click the `➕` Sign in the top left corner 
 The Package comes with Samples that can be selected from the Unity Package Manager. In the Samples you will find example Setups for the different Marking Setups along with Prefabs.
 The Example Scenes can be found in: `Assets/Samples/Annotation/Scenes`
 
+## Component Setup Diagram
 ```mermaid
 graph
     subgraph UI [UI]
