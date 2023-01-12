@@ -1,4 +1,4 @@
-/* A C# Component
+/* A UI Component for a Panel that is used for Marking the Craters
  * <author>Paul Nasdalack</author>
  */
 using NaughtyAttributes;
@@ -10,12 +10,15 @@ using UnityEngine;
 
 namespace ImageAnnotation.Marking
 {
+    /// <summary>
+    /// A UI Component that is used for marking Images.
+    /// </summary>
     public class MarkingPanel : MonoBehaviour
     {
-        #region Serialized 
+        #region Serialized
         [SerializeField, Required]
         private CraterLogger _craterLogger;
-        [SerializeField]
+        [SerializeField, InfoBox("Reference to a GameObject with Components that handle Marking (e.g. TwoFingerMarker)")]
         private GameObject _markingObject;
         #endregion
         #region Private Variables
@@ -27,6 +30,9 @@ namespace ImageAnnotation.Marking
 
         #endregion
         #region Public Functions
+        /// <summary>
+        /// Shows the Panel and clears the Marking Texture
+        /// </summary>
         public void Open()
         {
             gameObject.SetActive(true);
@@ -37,7 +43,10 @@ namespace ImageAnnotation.Marking
             }
         }
 
-        public void Close()
+		/// <summary>
+		/// Closes the Panel
+		/// </summary>
+		public void Close()
         {
             gameObject.SetActive(false);
             _craterLogger.TargetTexture.texture = null;
@@ -47,7 +56,12 @@ namespace ImageAnnotation.Marking
             }
         }
 
-        public void StartMarking(Texture2D texture, SubmitCratersDelegate submitCraters)
+		/// <summary>
+		/// Shows the Marking Texture, Clears the Crater Logger and enables the Marking 
+		/// </summary>
+        /// <param name="texture">The Texture that will be shown for marking</param>
+        /// <param name="submitCraters">A Delegate that will be called once the logging is complete in order to log all marked craters</param>
+		public void StartMarking(Texture2D texture, SubmitCratersDelegate submitCraters)
         {
             _craterLogger.TargetTexture.texture = texture;
             _craterLogger.Clear();
@@ -59,7 +73,10 @@ namespace ImageAnnotation.Marking
 
         }
 
-        public void FinishMarking()
+		/// <summary>
+		/// Hides the Marking Texture, Submits the Logged Craters and disables the Marking Object
+		/// </summary>
+		public void FinishMarking()
         {
             if(_submitCraters != null)
             {

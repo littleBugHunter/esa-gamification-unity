@@ -14,3 +14,37 @@ Go to the Unity Package Manager and click the `➕` Sign in the top left corner 
 ## Samples
 The Package comes with Samples that can be selected from the Unity Package Manager. In the Samples you will find example Setups for the different Marking Setups along with Prefabs.
 The Example Scenes can be found in: `Assets/Samples/Annotation/Scenes`
+
+```mermaid
+graph
+    subgraph UI [UI]
+    MP[MarkingPanel]
+    M[Markers<br/><i>*TwoFingerMarker</i><br><i>*CenterMarker</i>]
+    CL[CraterLogger]
+    RT[RawTexture<br>for displaying crater images]
+    MM[*MapMovement]
+    end
+    subgraph ServerConnection [ServerConnection]
+    SC[ServerConnection]
+    PMC[PuzzleModeClient]
+    end
+    subgraph CustomCode [CustomCode]
+    BTN_Start[Start Button]
+    SCORE[Score]
+    end
+    subgraph CustomCode2 [CustomCode]
+    BTN_Submit[Submit Button]
+    end
+    
+    PMC-->|uses| SC
+    BTN_Start-->|"starts via StartPuzzle()"| PMC
+    PMC-->|"StartPuzzle() opens and closes"| MP
+    MP-->|activates and deactivates| M
+    MP-->|sets|RT
+    CL-->|draws marker circles|RT
+    M-->|adds and removes craters|CL
+    MP-->|reads craters|CL
+    MM-->|shifts and zooms|RT
+    BTN_Submit-->|"FinishMarking() submits marked craters"|MP
+    PMC-->|"OnPuzzleDone event is called and reports score"|SCORE
+```
