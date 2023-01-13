@@ -71,3 +71,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /[Bb]uilds
+
+#Add Project file for documentation
+!paul-nasdalack.image-annotation.csproj
