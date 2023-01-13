@@ -4,12 +4,444 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.NameGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.NameGenerator.html",
+          "hash": "Wc/F7ptksLc8vLAKx3wsUWBFBXoFkkMG/eIEWaLK2nA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.html",
+          "hash": "UT89eC2j7x+ZZZlNsknP0nSt3p8HZW21z94jxfrENt4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.Puzzle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.Puzzle.html",
+          "hash": "hSqZ36nia4PKO9Ip0oiHtpI/qxI2meQ3HxeBwNnL5IU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.PuzzleDoneEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.PuzzleDoneEvent.html",
+          "hash": "q2XUkCTx0+yJHZP9gVl92pXHoEfA6sBfVwwDieZ50po="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.html",
+          "hash": "80RFkhGWssHDJ6wysKbjzp+wfT7cUGbOdG6CO3m3NLE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.html",
+          "hash": "4D5IrBuAiwZaMEj0GWQwCcsZqTVk8bwgGeXiNGnlfM4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.html",
+          "hash": "OR3psSBua0VNKif5oIkLb5OYR4vojdJeVv4VF1OTg1o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.html",
+          "hash": "nGopMsSVFQJqWBVsD0oA6xcOEGsYAZSVe1/IkSA5U4s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.html",
+          "hash": "EMd2/cQI4lYoqGuNdyBr8Z7oG0NEM87VKPZC3K2sI84="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.html",
+          "hash": "eucIQk0YjxKkaM/dhSjMtHXhCpN7W1R3vFUORgSm84I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.html",
+          "hash": "yFmxGv3HXAfwEB7G/mAOcAEqrandxxzxJVpyuSXtN3s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.Requests.GetObjectJson-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.Requests.GetObjectJson-1.html",
+          "hash": "65raZhI9kJA10/taY2ydSkHjwgom0dEJ6bqsd0zPuFw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.Requests.GetRequestWrapper-1.GetResultDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.Requests.GetRequestWrapper-1.GetResultDelegate.html",
+          "hash": "zLpLPCCAcWgmXw2uaXGJ9N4PqsbE06YgZHCPDKQipwo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.Requests.GetRequestWrapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.Requests.GetRequestWrapper-1.html",
+          "hash": "FzQYWpYGQoyGHhe/ESsjHV1AgJWzTusnWFOou57pPAI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.Requests.GetTexture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.Requests.GetTexture.html",
+          "hash": "iV3YgKgMNsfPS8yEbDEdDgGoNWfBhlKIkULe2YPpJiM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.Requests.PostObjectJson-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.Requests.PostObjectJson-1.html",
+          "hash": "FrKK6KInBoPhhIAOIKoKQFZdJPgB1NHfXcDbXkHtRRk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.Requests.PostRequestWrapper-1.GetResultDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.Requests.PostRequestWrapper-1.GetResultDelegate.html",
+          "hash": "WyUpK92mmnJuzUlpA+CyW583hfEhf9Twg1D09lUKhfI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.Requests.PostRequestWrapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.Requests.PostRequestWrapper-1.html",
+          "hash": "5ftgmDwu2+U3qr+W58tYcFPQSnJgKfmX1+jPwa84nEw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.Requests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.Requests.html",
+          "hash": "nCczTF0D4Cl86Pdo8LgTX0t1Igo+5MSPKlg2nYq9Iic="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.ServerConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.ServerConnection.html",
+          "hash": "OnDDBiMHsc8wsi6oIAlcbuKSA9WKk0uyRFVS15KAas8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.html",
+          "hash": "WVy2FlIliWsNHDcPJV+9jLZlM5dEUDGQk/KSMhwjqj8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Marking.CenterMarker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Marking.CenterMarker.html",
+          "hash": "HtUmPu7MKhC3sXfSjg1hNQCsG6TNHQbsPCPKOF20css="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Marking.CraterEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Marking.CraterEntry.html",
+          "hash": "qgFaJ7NFAml7muwYjF1nEvP2NJQ0MrGhvAMwvBhou0g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Marking.CraterLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Marking.CraterLogger.html",
+          "hash": "jDOV9Z5Pp6t4xrNd+yxA7V1l2EnaZdhV2neqss2IfQc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Marking.ICraterCollector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Marking.ICraterCollector.html",
+          "hash": "xtbRZvbdstje/GdxGGvm1LePgA9VrysHiH2MDWK8slA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Marking.MapMovement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Marking.MapMovement.html",
+          "hash": "d2LAFvSAh9zI1z8FgHBIhIPdupIIgrqfFeQoyzH0sUU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate.html",
+          "hash": "UoSl9d5idW0VrfmKY2EwEYUIdPuzbI426pBYx0Nqfh0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Marking.MarkingPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Marking.MarkingPanel.html",
+          "hash": "VCHKmgosQLYo/CELoFrdIy54FK/cpX0vANVtwjJA6gU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Marking.TwoFingerMarker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Marking.TwoFingerMarker.html",
+          "hash": "wNvHj8wl2zOzJDgbWfWUjgJob3PhJWZLbUmc+0maLPY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Marking.Visuals.CraterVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Marking.Visuals.CraterVisual.html",
+          "hash": "yBlQYu/wqqniabWyE7HU0l696rIWCZHBY3GLn5K+HA4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.html",
+          "hash": "sulju7P4HdByCxWaC3kV3AfXXZa56ix/c4gcT0j9ckc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Marking.Visuals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Marking.Visuals.html",
+          "hash": "npw/3Tpj5SzwPepAN6MhehxVgPsgRkzL4V+AQTepkfg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Marking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Marking.html",
+          "hash": "wRlzvM9kXT7ctOrd5uPobQy0sfPPKc7UpPaPewA1ppM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.UiUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.UiUtils.html",
+          "hash": "00dV1SofR3+Qb8A+QAyu7WXGSJSPo6LH8P7WlRj4Hok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.html",
+          "hash": "/scR3+czrmVi7LsHP7smBiK7p2iwnC1vs6oW/+S6DhM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "iSkdIcc+AQjlVbVPX+NdJpmVyMpgtItELKPTVAu1XWA="
+          "hash": "LyewiTUQtNoZ3MHdbkwQcPc8mMvLwzzHCdrS3makRIQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "haLTjj+B/TZiyDWpt/XLmidxMkJypzOYFNtTsbsRxxA="
         }
       },
       "is_incremental": false,
@@ -57,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "26gkccrz4bulFa5TDgPGGYSnO8DBoYI8llSnyzOuhgk="
+          "hash": "aVe9U1RxWP3P5E5X/x2rL8jCuFlqix3bHKxtkjZ3zxg="
         }
       },
       "is_incremental": false,
@@ -79,6 +511,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 35,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

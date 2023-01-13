@@ -1,3 +1,952 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: ImageAnnotation
+  name: ImageAnnotation
+  href: api/ImageAnnotation.html
+  commentId: N:ImageAnnotation
+  fullName: ImageAnnotation
+  nameWithType: ImageAnnotation
+- uid: ImageAnnotation.Client
+  name: ImageAnnotation.Client
+  href: api/ImageAnnotation.Client.html
+  commentId: N:ImageAnnotation.Client
+  fullName: ImageAnnotation.Client
+  nameWithType: ImageAnnotation.Client
+- uid: ImageAnnotation.Client.NameGenerator
+  name: NameGenerator
+  href: api/ImageAnnotation.Client.NameGenerator.html
+  commentId: T:ImageAnnotation.Client.NameGenerator
+  fullName: ImageAnnotation.Client.NameGenerator
+  nameWithType: NameGenerator
+- uid: ImageAnnotation.Client.NameGenerator.Generate(System.Int32)
+  name: Generate(Int32)
+  href: api/ImageAnnotation.Client.NameGenerator.html#ImageAnnotation_Client_NameGenerator_Generate_System_Int32_
+  commentId: M:ImageAnnotation.Client.NameGenerator.Generate(System.Int32)
+  fullName: ImageAnnotation.Client.NameGenerator.Generate(System.Int32)
+  nameWithType: NameGenerator.Generate(Int32)
+- uid: ImageAnnotation.Client.NameGenerator.Generate*
+  name: Generate
+  href: api/ImageAnnotation.Client.NameGenerator.html#ImageAnnotation_Client_NameGenerator_Generate_
+  commentId: Overload:ImageAnnotation.Client.NameGenerator.Generate
+  isSpec: "True"
+  fullName: ImageAnnotation.Client.NameGenerator.Generate
+  nameWithType: NameGenerator.Generate
+- uid: ImageAnnotation.Client.PuzzleModeClient
+  name: PuzzleModeClient
+  href: api/ImageAnnotation.Client.PuzzleModeClient.html
+  commentId: T:ImageAnnotation.Client.PuzzleModeClient
+  fullName: ImageAnnotation.Client.PuzzleModeClient
+  nameWithType: PuzzleModeClient
+- uid: ImageAnnotation.Client.PuzzleModeClient.MarkingPanel
+  name: MarkingPanel
+  href: api/ImageAnnotation.Client.PuzzleModeClient.html#ImageAnnotation_Client_PuzzleModeClient_MarkingPanel
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.MarkingPanel
+  fullName: ImageAnnotation.Client.PuzzleModeClient.MarkingPanel
+  nameWithType: PuzzleModeClient.MarkingPanel
+- uid: ImageAnnotation.Client.PuzzleModeClient.OnPuzzleDone
+  name: OnPuzzleDone
+  href: api/ImageAnnotation.Client.PuzzleModeClient.html#ImageAnnotation_Client_PuzzleModeClient_OnPuzzleDone
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.OnPuzzleDone
+  fullName: ImageAnnotation.Client.PuzzleModeClient.OnPuzzleDone
+  nameWithType: PuzzleModeClient.OnPuzzleDone
+- uid: ImageAnnotation.Client.PuzzleModeClient.Puzzle
+  name: PuzzleModeClient.Puzzle
+  href: api/ImageAnnotation.Client.PuzzleModeClient.Puzzle.html
+  commentId: T:ImageAnnotation.Client.PuzzleModeClient.Puzzle
+  fullName: ImageAnnotation.Client.PuzzleModeClient.Puzzle
+  nameWithType: PuzzleModeClient.Puzzle
+- uid: ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice
+  name: PuzzleModeClient.Puzzle.Slice
+  href: api/ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.html
+  commentId: T:ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice
+  fullName: ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice
+  nameWithType: PuzzleModeClient.Puzzle.Slice
+- uid: ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.id
+  name: id
+  href: api/ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.html#ImageAnnotation_Client_PuzzleModeClient_Puzzle_Slice_id
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.id
+  fullName: ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.id
+  nameWithType: PuzzleModeClient.Puzzle.Slice.id
+- uid: ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.image
+  name: image
+  href: api/ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.html#ImageAnnotation_Client_PuzzleModeClient_Puzzle_Slice_image
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.image
+  fullName: ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.image
+  nameWithType: PuzzleModeClient.Puzzle.Slice.image
+- uid: ImageAnnotation.Client.PuzzleModeClient.Puzzle.slices
+  name: slices
+  href: api/ImageAnnotation.Client.PuzzleModeClient.Puzzle.html#ImageAnnotation_Client_PuzzleModeClient_Puzzle_slices
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.Puzzle.slices
+  fullName: ImageAnnotation.Client.PuzzleModeClient.Puzzle.slices
+  nameWithType: PuzzleModeClient.Puzzle.slices
+- uid: ImageAnnotation.Client.PuzzleModeClient.PuzzleDoneEvent
+  name: PuzzleModeClient.PuzzleDoneEvent
+  href: api/ImageAnnotation.Client.PuzzleModeClient.PuzzleDoneEvent.html
+  commentId: T:ImageAnnotation.Client.PuzzleModeClient.PuzzleDoneEvent
+  fullName: ImageAnnotation.Client.PuzzleModeClient.PuzzleDoneEvent
+  nameWithType: PuzzleModeClient.PuzzleDoneEvent
+- uid: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore
+  name: PuzzleModeClient.PuzzleScore
+  href: api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.html
+  commentId: T:ImageAnnotation.Client.PuzzleModeClient.PuzzleScore
+  fullName: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore
+  nameWithType: PuzzleModeClient.PuzzleScore
+- uid: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.absolute
+  name: absolute
+  href: api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.html#ImageAnnotation_Client_PuzzleModeClient_PuzzleScore_absolute
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.absolute
+  fullName: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.absolute
+  nameWithType: PuzzleModeClient.PuzzleScore.absolute
+- uid: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults
+  name: PuzzleModeClient.PuzzleScore.AbsoluteResults
+  href: api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.html
+  commentId: T:ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults
+  fullName: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults
+  nameWithType: PuzzleModeClient.PuzzleScore.AbsoluteResults
+- uid: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.totalFalse
+  name: totalFalse
+  href: api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.html#ImageAnnotation_Client_PuzzleModeClient_PuzzleScore_AbsoluteResults_totalFalse
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.totalFalse
+  fullName: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.totalFalse
+  nameWithType: PuzzleModeClient.PuzzleScore.AbsoluteResults.totalFalse
+- uid: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.totalHit
+  name: totalHit
+  href: api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.html#ImageAnnotation_Client_PuzzleModeClient_PuzzleScore_AbsoluteResults_totalHit
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.totalHit
+  fullName: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.totalHit
+  nameWithType: PuzzleModeClient.PuzzleScore.AbsoluteResults.totalHit
+- uid: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.totalMissed
+  name: totalMissed
+  href: api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.html#ImageAnnotation_Client_PuzzleModeClient_PuzzleScore_AbsoluteResults_totalMissed
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.totalMissed
+  fullName: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.totalMissed
+  nameWithType: PuzzleModeClient.PuzzleScore.AbsoluteResults.totalMissed
+- uid: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.totalPossible
+  name: totalPossible
+  href: api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.html#ImageAnnotation_Client_PuzzleModeClient_PuzzleScore_AbsoluteResults_totalPossible
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.totalPossible
+  fullName: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.totalPossible
+  nameWithType: PuzzleModeClient.PuzzleScore.AbsoluteResults.totalPossible
+- uid: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.accuracy
+  name: accuracy
+  href: api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.html#ImageAnnotation_Client_PuzzleModeClient_PuzzleScore_accuracy
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.accuracy
+  fullName: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.accuracy
+  nameWithType: PuzzleModeClient.PuzzleScore.accuracy
+- uid: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.relative
+  name: relative
+  href: api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.html#ImageAnnotation_Client_PuzzleModeClient_PuzzleScore_relative
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.relative
+  fullName: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.relative
+  nameWithType: PuzzleModeClient.PuzzleScore.relative
+- uid: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults
+  name: PuzzleModeClient.PuzzleScore.RelativeResults
+  href: api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.html
+  commentId: T:ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults
+  fullName: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults
+  nameWithType: PuzzleModeClient.PuzzleScore.RelativeResults
+- uid: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.hit
+  name: hit
+  href: api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.html#ImageAnnotation_Client_PuzzleModeClient_PuzzleScore_RelativeResults_hit
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.hit
+  fullName: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.hit
+  nameWithType: PuzzleModeClient.PuzzleScore.RelativeResults.hit
+- uid: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.invalid
+  name: invalid
+  href: api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.html#ImageAnnotation_Client_PuzzleModeClient_PuzzleScore_RelativeResults_invalid
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.invalid
+  fullName: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.invalid
+  nameWithType: PuzzleModeClient.PuzzleScore.RelativeResults.invalid
+- uid: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.missed
+  name: missed
+  href: api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.html#ImageAnnotation_Client_PuzzleModeClient_PuzzleScore_RelativeResults_missed
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.missed
+  fullName: ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.missed
+  nameWithType: PuzzleModeClient.PuzzleScore.RelativeResults.missed
+- uid: ImageAnnotation.Client.PuzzleModeClient.PuzzleSize
+  name: PuzzleSize
+  href: api/ImageAnnotation.Client.PuzzleModeClient.html#ImageAnnotation_Client_PuzzleModeClient_PuzzleSize
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.PuzzleSize
+  fullName: ImageAnnotation.Client.PuzzleModeClient.PuzzleSize
+  nameWithType: PuzzleModeClient.PuzzleSize
+- uid: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle
+  name: PuzzleModeClient.SolvedPuzzle
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.html
+  commentId: T:ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle
+  nameWithType: PuzzleModeClient.SolvedPuzzle
+- uid: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice
+  name: PuzzleModeClient.SolvedPuzzle.Slice
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.html
+  commentId: T:ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice
+  nameWithType: PuzzleModeClient.SolvedPuzzle.Slice
+- uid: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle
+  name: PuzzleModeClient.SolvedPuzzle.Slice.Circle
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.html
+  commentId: T:ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle
+  nameWithType: PuzzleModeClient.SolvedPuzzle.Slice.Circle
+- uid: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.radius
+  name: radius
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.html#ImageAnnotation_Client_PuzzleModeClient_SolvedPuzzle_Slice_Circle_radius
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.radius
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.radius
+  nameWithType: PuzzleModeClient.SolvedPuzzle.Slice.Circle.radius
+- uid: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.x
+  name: x
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.html#ImageAnnotation_Client_PuzzleModeClient_SolvedPuzzle_Slice_Circle_x
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.x
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.x
+  nameWithType: PuzzleModeClient.SolvedPuzzle.Slice.Circle.x
+- uid: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.y
+  name: y
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.html#ImageAnnotation_Client_PuzzleModeClient_SolvedPuzzle_Slice_Circle_y
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.y
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.y
+  nameWithType: PuzzleModeClient.SolvedPuzzle.Slice.Circle.y
+- uid: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.circles
+  name: circles
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.html#ImageAnnotation_Client_PuzzleModeClient_SolvedPuzzle_Slice_circles
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.circles
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.circles
+  nameWithType: PuzzleModeClient.SolvedPuzzle.Slice.circles
+- uid: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.id
+  name: id
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.html#ImageAnnotation_Client_PuzzleModeClient_SolvedPuzzle_Slice_id
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.id
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.id
+  nameWithType: PuzzleModeClient.SolvedPuzzle.Slice.id
+- uid: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.image
+  name: image
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.html#ImageAnnotation_Client_PuzzleModeClient_SolvedPuzzle_Slice_image
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.image
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.image
+  nameWithType: PuzzleModeClient.SolvedPuzzle.Slice.image
+- uid: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.slices
+  name: slices
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.html#ImageAnnotation_Client_PuzzleModeClient_SolvedPuzzle_slices
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.slices
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.slices
+  nameWithType: PuzzleModeClient.SolvedPuzzle.slices
+- uid: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.user
+  name: user
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.html#ImageAnnotation_Client_PuzzleModeClient_SolvedPuzzle_user
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.user
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.user
+  nameWithType: PuzzleModeClient.SolvedPuzzle.user
+- uid: ImageAnnotation.Client.PuzzleModeClient.StartPuzzle
+  name: StartPuzzle()
+  href: api/ImageAnnotation.Client.PuzzleModeClient.html#ImageAnnotation_Client_PuzzleModeClient_StartPuzzle
+  commentId: M:ImageAnnotation.Client.PuzzleModeClient.StartPuzzle
+  fullName: ImageAnnotation.Client.PuzzleModeClient.StartPuzzle()
+  nameWithType: PuzzleModeClient.StartPuzzle()
+- uid: ImageAnnotation.Client.PuzzleModeClient.StartPuzzle*
+  name: StartPuzzle
+  href: api/ImageAnnotation.Client.PuzzleModeClient.html#ImageAnnotation_Client_PuzzleModeClient_StartPuzzle_
+  commentId: Overload:ImageAnnotation.Client.PuzzleModeClient.StartPuzzle
+  isSpec: "True"
+  fullName: ImageAnnotation.Client.PuzzleModeClient.StartPuzzle
+  nameWithType: PuzzleModeClient.StartPuzzle
+- uid: ImageAnnotation.Client.Requests
+  name: ImageAnnotation.Client.Requests
+  href: api/ImageAnnotation.Client.Requests.html
+  commentId: N:ImageAnnotation.Client.Requests
+  fullName: ImageAnnotation.Client.Requests
+  nameWithType: ImageAnnotation.Client.Requests
+- uid: ImageAnnotation.Client.Requests.GetObjectJson`1
+  name: GetObjectJson<T>
+  href: api/ImageAnnotation.Client.Requests.GetObjectJson-1.html
+  commentId: T:ImageAnnotation.Client.Requests.GetObjectJson`1
+  name.vb: GetObjectJson(Of T)
+  fullName: ImageAnnotation.Client.Requests.GetObjectJson<T>
+  fullName.vb: ImageAnnotation.Client.Requests.GetObjectJson(Of T)
+  nameWithType: GetObjectJson<T>
+  nameWithType.vb: GetObjectJson(Of T)
+- uid: ImageAnnotation.Client.Requests.GetObjectJson`1.#ctor(System.String,System.String[])
+  name: GetObjectJson(String, String[])
+  href: api/ImageAnnotation.Client.Requests.GetObjectJson-1.html#ImageAnnotation_Client_Requests_GetObjectJson_1__ctor_System_String_System_String___
+  commentId: M:ImageAnnotation.Client.Requests.GetObjectJson`1.#ctor(System.String,System.String[])
+  name.vb: GetObjectJson(String, String())
+  fullName: ImageAnnotation.Client.Requests.GetObjectJson<T>.GetObjectJson(System.String, System.String[])
+  fullName.vb: ImageAnnotation.Client.Requests.GetObjectJson(Of T).GetObjectJson(System.String, System.String())
+  nameWithType: GetObjectJson<T>.GetObjectJson(String, String[])
+  nameWithType.vb: GetObjectJson(Of T).GetObjectJson(String, String())
+- uid: ImageAnnotation.Client.Requests.GetObjectJson`1.#ctor(System.String)
+  name: GetObjectJson(String)
+  href: api/ImageAnnotation.Client.Requests.GetObjectJson-1.html#ImageAnnotation_Client_Requests_GetObjectJson_1__ctor_System_String_
+  commentId: M:ImageAnnotation.Client.Requests.GetObjectJson`1.#ctor(System.String)
+  fullName: ImageAnnotation.Client.Requests.GetObjectJson<T>.GetObjectJson(System.String)
+  fullName.vb: ImageAnnotation.Client.Requests.GetObjectJson(Of T).GetObjectJson(System.String)
+  nameWithType: GetObjectJson<T>.GetObjectJson(String)
+  nameWithType.vb: GetObjectJson(Of T).GetObjectJson(String)
+- uid: ImageAnnotation.Client.Requests.GetObjectJson`1.#ctor(UnityWebRequest)
+  name: GetObjectJson(UnityWebRequest)
+  href: api/ImageAnnotation.Client.Requests.GetObjectJson-1.html#ImageAnnotation_Client_Requests_GetObjectJson_1__ctor_UnityWebRequest_
+  commentId: M:ImageAnnotation.Client.Requests.GetObjectJson`1.#ctor(UnityWebRequest)
+  fullName: ImageAnnotation.Client.Requests.GetObjectJson<T>.GetObjectJson(UnityWebRequest)
+  fullName.vb: ImageAnnotation.Client.Requests.GetObjectJson(Of T).GetObjectJson(UnityWebRequest)
+  nameWithType: GetObjectJson<T>.GetObjectJson(UnityWebRequest)
+  nameWithType.vb: GetObjectJson(Of T).GetObjectJson(UnityWebRequest)
+- uid: ImageAnnotation.Client.Requests.GetObjectJson`1.#ctor*
+  name: GetObjectJson
+  href: api/ImageAnnotation.Client.Requests.GetObjectJson-1.html#ImageAnnotation_Client_Requests_GetObjectJson_1__ctor_
+  commentId: Overload:ImageAnnotation.Client.Requests.GetObjectJson`1.#ctor
+  isSpec: "True"
+  fullName: ImageAnnotation.Client.Requests.GetObjectJson<T>.GetObjectJson
+  fullName.vb: ImageAnnotation.Client.Requests.GetObjectJson(Of T).GetObjectJson
+  nameWithType: GetObjectJson<T>.GetObjectJson
+  nameWithType.vb: GetObjectJson(Of T).GetObjectJson
+- uid: ImageAnnotation.Client.Requests.GetRequestWrapper`1
+  name: GetRequestWrapper<T>
+  href: api/ImageAnnotation.Client.Requests.GetRequestWrapper-1.html
+  commentId: T:ImageAnnotation.Client.Requests.GetRequestWrapper`1
+  name.vb: GetRequestWrapper(Of T)
+  fullName: ImageAnnotation.Client.Requests.GetRequestWrapper<T>
+  fullName.vb: ImageAnnotation.Client.Requests.GetRequestWrapper(Of T)
+  nameWithType: GetRequestWrapper<T>
+  nameWithType.vb: GetRequestWrapper(Of T)
+- uid: ImageAnnotation.Client.Requests.GetRequestWrapper`1.#ctor(System.String,ImageAnnotation.Client.Requests.GetRequestWrapper{`0}.GetResultDelegate)
+  name: GetRequestWrapper(String, GetRequestWrapper<T>.GetResultDelegate)
+  href: api/ImageAnnotation.Client.Requests.GetRequestWrapper-1.html#ImageAnnotation_Client_Requests_GetRequestWrapper_1__ctor_System_String_ImageAnnotation_Client_Requests_GetRequestWrapper__0__GetResultDelegate_
+  commentId: M:ImageAnnotation.Client.Requests.GetRequestWrapper`1.#ctor(System.String,ImageAnnotation.Client.Requests.GetRequestWrapper{`0}.GetResultDelegate)
+  name.vb: GetRequestWrapper(String, GetRequestWrapper(Of T).GetResultDelegate)
+  fullName: ImageAnnotation.Client.Requests.GetRequestWrapper<T>.GetRequestWrapper(System.String, ImageAnnotation.Client.Requests.GetRequestWrapper<T>.GetResultDelegate)
+  fullName.vb: ImageAnnotation.Client.Requests.GetRequestWrapper(Of T).GetRequestWrapper(System.String, ImageAnnotation.Client.Requests.GetRequestWrapper(Of T).GetResultDelegate)
+  nameWithType: GetRequestWrapper<T>.GetRequestWrapper(String, GetRequestWrapper<T>.GetResultDelegate)
+  nameWithType.vb: GetRequestWrapper(Of T).GetRequestWrapper(String, GetRequestWrapper(Of T).GetResultDelegate)
+- uid: ImageAnnotation.Client.Requests.GetRequestWrapper`1.#ctor(System.String,System.String[],ImageAnnotation.Client.Requests.GetRequestWrapper{`0}.GetResultDelegate)
+  name: GetRequestWrapper(String, String[], GetRequestWrapper<T>.GetResultDelegate)
+  href: api/ImageAnnotation.Client.Requests.GetRequestWrapper-1.html#ImageAnnotation_Client_Requests_GetRequestWrapper_1__ctor_System_String_System_String___ImageAnnotation_Client_Requests_GetRequestWrapper__0__GetResultDelegate_
+  commentId: M:ImageAnnotation.Client.Requests.GetRequestWrapper`1.#ctor(System.String,System.String[],ImageAnnotation.Client.Requests.GetRequestWrapper{`0}.GetResultDelegate)
+  name.vb: GetRequestWrapper(String, String(), GetRequestWrapper(Of T).GetResultDelegate)
+  fullName: ImageAnnotation.Client.Requests.GetRequestWrapper<T>.GetRequestWrapper(System.String, System.String[], ImageAnnotation.Client.Requests.GetRequestWrapper<T>.GetResultDelegate)
+  fullName.vb: ImageAnnotation.Client.Requests.GetRequestWrapper(Of T).GetRequestWrapper(System.String, System.String(), ImageAnnotation.Client.Requests.GetRequestWrapper(Of T).GetResultDelegate)
+  nameWithType: GetRequestWrapper<T>.GetRequestWrapper(String, String[], GetRequestWrapper<T>.GetResultDelegate)
+  nameWithType.vb: GetRequestWrapper(Of T).GetRequestWrapper(String, String(), GetRequestWrapper(Of T).GetResultDelegate)
+- uid: ImageAnnotation.Client.Requests.GetRequestWrapper`1.#ctor(UnityWebRequest,ImageAnnotation.Client.Requests.GetRequestWrapper{`0}.GetResultDelegate)
+  name: GetRequestWrapper(UnityWebRequest, GetRequestWrapper<T>.GetResultDelegate)
+  href: api/ImageAnnotation.Client.Requests.GetRequestWrapper-1.html#ImageAnnotation_Client_Requests_GetRequestWrapper_1__ctor_UnityWebRequest_ImageAnnotation_Client_Requests_GetRequestWrapper__0__GetResultDelegate_
+  commentId: M:ImageAnnotation.Client.Requests.GetRequestWrapper`1.#ctor(UnityWebRequest,ImageAnnotation.Client.Requests.GetRequestWrapper{`0}.GetResultDelegate)
+  name.vb: GetRequestWrapper(UnityWebRequest, GetRequestWrapper(Of T).GetResultDelegate)
+  fullName: ImageAnnotation.Client.Requests.GetRequestWrapper<T>.GetRequestWrapper(UnityWebRequest, ImageAnnotation.Client.Requests.GetRequestWrapper<T>.GetResultDelegate)
+  fullName.vb: ImageAnnotation.Client.Requests.GetRequestWrapper(Of T).GetRequestWrapper(UnityWebRequest, ImageAnnotation.Client.Requests.GetRequestWrapper(Of T).GetResultDelegate)
+  nameWithType: GetRequestWrapper<T>.GetRequestWrapper(UnityWebRequest, GetRequestWrapper<T>.GetResultDelegate)
+  nameWithType.vb: GetRequestWrapper(Of T).GetRequestWrapper(UnityWebRequest, GetRequestWrapper(Of T).GetResultDelegate)
+- uid: ImageAnnotation.Client.Requests.GetRequestWrapper`1.#ctor*
+  name: GetRequestWrapper
+  href: api/ImageAnnotation.Client.Requests.GetRequestWrapper-1.html#ImageAnnotation_Client_Requests_GetRequestWrapper_1__ctor_
+  commentId: Overload:ImageAnnotation.Client.Requests.GetRequestWrapper`1.#ctor
+  isSpec: "True"
+  fullName: ImageAnnotation.Client.Requests.GetRequestWrapper<T>.GetRequestWrapper
+  fullName.vb: ImageAnnotation.Client.Requests.GetRequestWrapper(Of T).GetRequestWrapper
+  nameWithType: GetRequestWrapper<T>.GetRequestWrapper
+  nameWithType.vb: GetRequestWrapper(Of T).GetRequestWrapper
+- uid: ImageAnnotation.Client.Requests.GetRequestWrapper`1.Dispose
+  name: Dispose()
+  href: api/ImageAnnotation.Client.Requests.GetRequestWrapper-1.html#ImageAnnotation_Client_Requests_GetRequestWrapper_1_Dispose
+  commentId: M:ImageAnnotation.Client.Requests.GetRequestWrapper`1.Dispose
+  fullName: ImageAnnotation.Client.Requests.GetRequestWrapper<T>.Dispose()
+  fullName.vb: ImageAnnotation.Client.Requests.GetRequestWrapper(Of T).Dispose()
+  nameWithType: GetRequestWrapper<T>.Dispose()
+  nameWithType.vb: GetRequestWrapper(Of T).Dispose()
+- uid: ImageAnnotation.Client.Requests.GetRequestWrapper`1.Dispose*
+  name: Dispose
+  href: api/ImageAnnotation.Client.Requests.GetRequestWrapper-1.html#ImageAnnotation_Client_Requests_GetRequestWrapper_1_Dispose_
+  commentId: Overload:ImageAnnotation.Client.Requests.GetRequestWrapper`1.Dispose
+  isSpec: "True"
+  fullName: ImageAnnotation.Client.Requests.GetRequestWrapper<T>.Dispose
+  fullName.vb: ImageAnnotation.Client.Requests.GetRequestWrapper(Of T).Dispose
+  nameWithType: GetRequestWrapper<T>.Dispose
+  nameWithType.vb: GetRequestWrapper(Of T).Dispose
+- uid: ImageAnnotation.Client.Requests.GetRequestWrapper`1.GetResult
+  name: GetResult()
+  href: api/ImageAnnotation.Client.Requests.GetRequestWrapper-1.html#ImageAnnotation_Client_Requests_GetRequestWrapper_1_GetResult
+  commentId: M:ImageAnnotation.Client.Requests.GetRequestWrapper`1.GetResult
+  fullName: ImageAnnotation.Client.Requests.GetRequestWrapper<T>.GetResult()
+  fullName.vb: ImageAnnotation.Client.Requests.GetRequestWrapper(Of T).GetResult()
+  nameWithType: GetRequestWrapper<T>.GetResult()
+  nameWithType.vb: GetRequestWrapper(Of T).GetResult()
+- uid: ImageAnnotation.Client.Requests.GetRequestWrapper`1.GetResult*
+  name: GetResult
+  href: api/ImageAnnotation.Client.Requests.GetRequestWrapper-1.html#ImageAnnotation_Client_Requests_GetRequestWrapper_1_GetResult_
+  commentId: Overload:ImageAnnotation.Client.Requests.GetRequestWrapper`1.GetResult
+  isSpec: "True"
+  fullName: ImageAnnotation.Client.Requests.GetRequestWrapper<T>.GetResult
+  fullName.vb: ImageAnnotation.Client.Requests.GetRequestWrapper(Of T).GetResult
+  nameWithType: GetRequestWrapper<T>.GetResult
+  nameWithType.vb: GetRequestWrapper(Of T).GetResult
+- uid: ImageAnnotation.Client.Requests.GetRequestWrapper`1.GetResultDelegate
+  name: GetRequestWrapper<T>.GetResultDelegate
+  href: api/ImageAnnotation.Client.Requests.GetRequestWrapper-1.GetResultDelegate.html
+  commentId: T:ImageAnnotation.Client.Requests.GetRequestWrapper`1.GetResultDelegate
+  name.vb: GetRequestWrapper(Of T).GetResultDelegate
+  fullName: ImageAnnotation.Client.Requests.GetRequestWrapper<T>.GetResultDelegate
+  fullName.vb: ImageAnnotation.Client.Requests.GetRequestWrapper(Of T).GetResultDelegate
+  nameWithType: GetRequestWrapper<T>.GetResultDelegate
+  nameWithType.vb: GetRequestWrapper(Of T).GetResultDelegate
+- uid: ImageAnnotation.Client.Requests.GetRequestWrapper`1.isDone
+  name: isDone
+  href: api/ImageAnnotation.Client.Requests.GetRequestWrapper-1.html#ImageAnnotation_Client_Requests_GetRequestWrapper_1_isDone
+  commentId: P:ImageAnnotation.Client.Requests.GetRequestWrapper`1.isDone
+  fullName: ImageAnnotation.Client.Requests.GetRequestWrapper<T>.isDone
+  fullName.vb: ImageAnnotation.Client.Requests.GetRequestWrapper(Of T).isDone
+  nameWithType: GetRequestWrapper<T>.isDone
+  nameWithType.vb: GetRequestWrapper(Of T).isDone
+- uid: ImageAnnotation.Client.Requests.GetRequestWrapper`1.isDone*
+  name: isDone
+  href: api/ImageAnnotation.Client.Requests.GetRequestWrapper-1.html#ImageAnnotation_Client_Requests_GetRequestWrapper_1_isDone_
+  commentId: Overload:ImageAnnotation.Client.Requests.GetRequestWrapper`1.isDone
+  isSpec: "True"
+  fullName: ImageAnnotation.Client.Requests.GetRequestWrapper<T>.isDone
+  fullName.vb: ImageAnnotation.Client.Requests.GetRequestWrapper(Of T).isDone
+  nameWithType: GetRequestWrapper<T>.isDone
+  nameWithType.vb: GetRequestWrapper(Of T).isDone
+- uid: ImageAnnotation.Client.Requests.GetTexture
+  name: GetTexture
+  href: api/ImageAnnotation.Client.Requests.GetTexture.html
+  commentId: T:ImageAnnotation.Client.Requests.GetTexture
+  fullName: ImageAnnotation.Client.Requests.GetTexture
+  nameWithType: GetTexture
+- uid: ImageAnnotation.Client.Requests.GetTexture.#ctor(System.String,System.String[])
+  name: GetTexture(String, String[])
+  href: api/ImageAnnotation.Client.Requests.GetTexture.html#ImageAnnotation_Client_Requests_GetTexture__ctor_System_String_System_String___
+  commentId: M:ImageAnnotation.Client.Requests.GetTexture.#ctor(System.String,System.String[])
+  name.vb: GetTexture(String, String())
+  fullName: ImageAnnotation.Client.Requests.GetTexture.GetTexture(System.String, System.String[])
+  fullName.vb: ImageAnnotation.Client.Requests.GetTexture.GetTexture(System.String, System.String())
+  nameWithType: GetTexture.GetTexture(String, String[])
+  nameWithType.vb: GetTexture.GetTexture(String, String())
+- uid: ImageAnnotation.Client.Requests.GetTexture.#ctor(System.String)
+  name: GetTexture(String)
+  href: api/ImageAnnotation.Client.Requests.GetTexture.html#ImageAnnotation_Client_Requests_GetTexture__ctor_System_String_
+  commentId: M:ImageAnnotation.Client.Requests.GetTexture.#ctor(System.String)
+  fullName: ImageAnnotation.Client.Requests.GetTexture.GetTexture(System.String)
+  nameWithType: GetTexture.GetTexture(String)
+- uid: ImageAnnotation.Client.Requests.GetTexture.#ctor(UnityWebRequest)
+  name: GetTexture(UnityWebRequest)
+  href: api/ImageAnnotation.Client.Requests.GetTexture.html#ImageAnnotation_Client_Requests_GetTexture__ctor_UnityWebRequest_
+  commentId: M:ImageAnnotation.Client.Requests.GetTexture.#ctor(UnityWebRequest)
+  fullName: ImageAnnotation.Client.Requests.GetTexture.GetTexture(UnityWebRequest)
+  nameWithType: GetTexture.GetTexture(UnityWebRequest)
+- uid: ImageAnnotation.Client.Requests.GetTexture.#ctor*
+  name: GetTexture
+  href: api/ImageAnnotation.Client.Requests.GetTexture.html#ImageAnnotation_Client_Requests_GetTexture__ctor_
+  commentId: Overload:ImageAnnotation.Client.Requests.GetTexture.#ctor
+  isSpec: "True"
+  fullName: ImageAnnotation.Client.Requests.GetTexture.GetTexture
+  nameWithType: GetTexture.GetTexture
+- uid: ImageAnnotation.Client.Requests.PostObjectJson`1
+  name: PostObjectJson<T>
+  href: api/ImageAnnotation.Client.Requests.PostObjectJson-1.html
+  commentId: T:ImageAnnotation.Client.Requests.PostObjectJson`1
+  name.vb: PostObjectJson(Of T)
+  fullName: ImageAnnotation.Client.Requests.PostObjectJson<T>
+  fullName.vb: ImageAnnotation.Client.Requests.PostObjectJson(Of T)
+  nameWithType: PostObjectJson<T>
+  nameWithType.vb: PostObjectJson(Of T)
+- uid: ImageAnnotation.Client.Requests.PostObjectJson`1.#ctor(System.String,System.String)
+  name: PostObjectJson(String, String)
+  href: api/ImageAnnotation.Client.Requests.PostObjectJson-1.html#ImageAnnotation_Client_Requests_PostObjectJson_1__ctor_System_String_System_String_
+  commentId: M:ImageAnnotation.Client.Requests.PostObjectJson`1.#ctor(System.String,System.String)
+  fullName: ImageAnnotation.Client.Requests.PostObjectJson<T>.PostObjectJson(System.String, System.String)
+  fullName.vb: ImageAnnotation.Client.Requests.PostObjectJson(Of T).PostObjectJson(System.String, System.String)
+  nameWithType: PostObjectJson<T>.PostObjectJson(String, String)
+  nameWithType.vb: PostObjectJson(Of T).PostObjectJson(String, String)
+- uid: ImageAnnotation.Client.Requests.PostObjectJson`1.#ctor(UnityWebRequest,System.String)
+  name: PostObjectJson(UnityWebRequest, String)
+  href: api/ImageAnnotation.Client.Requests.PostObjectJson-1.html#ImageAnnotation_Client_Requests_PostObjectJson_1__ctor_UnityWebRequest_System_String_
+  commentId: M:ImageAnnotation.Client.Requests.PostObjectJson`1.#ctor(UnityWebRequest,System.String)
+  fullName: ImageAnnotation.Client.Requests.PostObjectJson<T>.PostObjectJson(UnityWebRequest, System.String)
+  fullName.vb: ImageAnnotation.Client.Requests.PostObjectJson(Of T).PostObjectJson(UnityWebRequest, System.String)
+  nameWithType: PostObjectJson<T>.PostObjectJson(UnityWebRequest, String)
+  nameWithType.vb: PostObjectJson(Of T).PostObjectJson(UnityWebRequest, String)
+- uid: ImageAnnotation.Client.Requests.PostObjectJson`1.#ctor*
+  name: PostObjectJson
+  href: api/ImageAnnotation.Client.Requests.PostObjectJson-1.html#ImageAnnotation_Client_Requests_PostObjectJson_1__ctor_
+  commentId: Overload:ImageAnnotation.Client.Requests.PostObjectJson`1.#ctor
+  isSpec: "True"
+  fullName: ImageAnnotation.Client.Requests.PostObjectJson<T>.PostObjectJson
+  fullName.vb: ImageAnnotation.Client.Requests.PostObjectJson(Of T).PostObjectJson
+  nameWithType: PostObjectJson<T>.PostObjectJson
+  nameWithType.vb: PostObjectJson(Of T).PostObjectJson
+- uid: ImageAnnotation.Client.Requests.PostRequestWrapper`1
+  name: PostRequestWrapper<T>
+  href: api/ImageAnnotation.Client.Requests.PostRequestWrapper-1.html
+  commentId: T:ImageAnnotation.Client.Requests.PostRequestWrapper`1
+  name.vb: PostRequestWrapper(Of T)
+  fullName: ImageAnnotation.Client.Requests.PostRequestWrapper<T>
+  fullName.vb: ImageAnnotation.Client.Requests.PostRequestWrapper(Of T)
+  nameWithType: PostRequestWrapper<T>
+  nameWithType.vb: PostRequestWrapper(Of T)
+- uid: ImageAnnotation.Client.Requests.PostRequestWrapper`1.#ctor(System.String,System.String,ImageAnnotation.Client.Requests.PostRequestWrapper{`0}.GetResultDelegate)
+  name: PostRequestWrapper(String, String, PostRequestWrapper<T>.GetResultDelegate)
+  href: api/ImageAnnotation.Client.Requests.PostRequestWrapper-1.html#ImageAnnotation_Client_Requests_PostRequestWrapper_1__ctor_System_String_System_String_ImageAnnotation_Client_Requests_PostRequestWrapper__0__GetResultDelegate_
+  commentId: M:ImageAnnotation.Client.Requests.PostRequestWrapper`1.#ctor(System.String,System.String,ImageAnnotation.Client.Requests.PostRequestWrapper{`0}.GetResultDelegate)
+  name.vb: PostRequestWrapper(String, String, PostRequestWrapper(Of T).GetResultDelegate)
+  fullName: ImageAnnotation.Client.Requests.PostRequestWrapper<T>.PostRequestWrapper(System.String, System.String, ImageAnnotation.Client.Requests.PostRequestWrapper<T>.GetResultDelegate)
+  fullName.vb: ImageAnnotation.Client.Requests.PostRequestWrapper(Of T).PostRequestWrapper(System.String, System.String, ImageAnnotation.Client.Requests.PostRequestWrapper(Of T).GetResultDelegate)
+  nameWithType: PostRequestWrapper<T>.PostRequestWrapper(String, String, PostRequestWrapper<T>.GetResultDelegate)
+  nameWithType.vb: PostRequestWrapper(Of T).PostRequestWrapper(String, String, PostRequestWrapper(Of T).GetResultDelegate)
+- uid: ImageAnnotation.Client.Requests.PostRequestWrapper`1.#ctor(UnityWebRequest,System.String,ImageAnnotation.Client.Requests.PostRequestWrapper{`0}.GetResultDelegate)
+  name: PostRequestWrapper(UnityWebRequest, String, PostRequestWrapper<T>.GetResultDelegate)
+  href: api/ImageAnnotation.Client.Requests.PostRequestWrapper-1.html#ImageAnnotation_Client_Requests_PostRequestWrapper_1__ctor_UnityWebRequest_System_String_ImageAnnotation_Client_Requests_PostRequestWrapper__0__GetResultDelegate_
+  commentId: M:ImageAnnotation.Client.Requests.PostRequestWrapper`1.#ctor(UnityWebRequest,System.String,ImageAnnotation.Client.Requests.PostRequestWrapper{`0}.GetResultDelegate)
+  name.vb: PostRequestWrapper(UnityWebRequest, String, PostRequestWrapper(Of T).GetResultDelegate)
+  fullName: ImageAnnotation.Client.Requests.PostRequestWrapper<T>.PostRequestWrapper(UnityWebRequest, System.String, ImageAnnotation.Client.Requests.PostRequestWrapper<T>.GetResultDelegate)
+  fullName.vb: ImageAnnotation.Client.Requests.PostRequestWrapper(Of T).PostRequestWrapper(UnityWebRequest, System.String, ImageAnnotation.Client.Requests.PostRequestWrapper(Of T).GetResultDelegate)
+  nameWithType: PostRequestWrapper<T>.PostRequestWrapper(UnityWebRequest, String, PostRequestWrapper<T>.GetResultDelegate)
+  nameWithType.vb: PostRequestWrapper(Of T).PostRequestWrapper(UnityWebRequest, String, PostRequestWrapper(Of T).GetResultDelegate)
+- uid: ImageAnnotation.Client.Requests.PostRequestWrapper`1.#ctor*
+  name: PostRequestWrapper
+  href: api/ImageAnnotation.Client.Requests.PostRequestWrapper-1.html#ImageAnnotation_Client_Requests_PostRequestWrapper_1__ctor_
+  commentId: Overload:ImageAnnotation.Client.Requests.PostRequestWrapper`1.#ctor
+  isSpec: "True"
+  fullName: ImageAnnotation.Client.Requests.PostRequestWrapper<T>.PostRequestWrapper
+  fullName.vb: ImageAnnotation.Client.Requests.PostRequestWrapper(Of T).PostRequestWrapper
+  nameWithType: PostRequestWrapper<T>.PostRequestWrapper
+  nameWithType.vb: PostRequestWrapper(Of T).PostRequestWrapper
+- uid: ImageAnnotation.Client.Requests.PostRequestWrapper`1.Dispose
+  name: Dispose()
+  href: api/ImageAnnotation.Client.Requests.PostRequestWrapper-1.html#ImageAnnotation_Client_Requests_PostRequestWrapper_1_Dispose
+  commentId: M:ImageAnnotation.Client.Requests.PostRequestWrapper`1.Dispose
+  fullName: ImageAnnotation.Client.Requests.PostRequestWrapper<T>.Dispose()
+  fullName.vb: ImageAnnotation.Client.Requests.PostRequestWrapper(Of T).Dispose()
+  nameWithType: PostRequestWrapper<T>.Dispose()
+  nameWithType.vb: PostRequestWrapper(Of T).Dispose()
+- uid: ImageAnnotation.Client.Requests.PostRequestWrapper`1.Dispose*
+  name: Dispose
+  href: api/ImageAnnotation.Client.Requests.PostRequestWrapper-1.html#ImageAnnotation_Client_Requests_PostRequestWrapper_1_Dispose_
+  commentId: Overload:ImageAnnotation.Client.Requests.PostRequestWrapper`1.Dispose
+  isSpec: "True"
+  fullName: ImageAnnotation.Client.Requests.PostRequestWrapper<T>.Dispose
+  fullName.vb: ImageAnnotation.Client.Requests.PostRequestWrapper(Of T).Dispose
+  nameWithType: PostRequestWrapper<T>.Dispose
+  nameWithType.vb: PostRequestWrapper(Of T).Dispose
+- uid: ImageAnnotation.Client.Requests.PostRequestWrapper`1.GetResult
+  name: GetResult()
+  href: api/ImageAnnotation.Client.Requests.PostRequestWrapper-1.html#ImageAnnotation_Client_Requests_PostRequestWrapper_1_GetResult
+  commentId: M:ImageAnnotation.Client.Requests.PostRequestWrapper`1.GetResult
+  fullName: ImageAnnotation.Client.Requests.PostRequestWrapper<T>.GetResult()
+  fullName.vb: ImageAnnotation.Client.Requests.PostRequestWrapper(Of T).GetResult()
+  nameWithType: PostRequestWrapper<T>.GetResult()
+  nameWithType.vb: PostRequestWrapper(Of T).GetResult()
+- uid: ImageAnnotation.Client.Requests.PostRequestWrapper`1.GetResult*
+  name: GetResult
+  href: api/ImageAnnotation.Client.Requests.PostRequestWrapper-1.html#ImageAnnotation_Client_Requests_PostRequestWrapper_1_GetResult_
+  commentId: Overload:ImageAnnotation.Client.Requests.PostRequestWrapper`1.GetResult
+  isSpec: "True"
+  fullName: ImageAnnotation.Client.Requests.PostRequestWrapper<T>.GetResult
+  fullName.vb: ImageAnnotation.Client.Requests.PostRequestWrapper(Of T).GetResult
+  nameWithType: PostRequestWrapper<T>.GetResult
+  nameWithType.vb: PostRequestWrapper(Of T).GetResult
+- uid: ImageAnnotation.Client.Requests.PostRequestWrapper`1.GetResultDelegate
+  name: PostRequestWrapper<T>.GetResultDelegate
+  href: api/ImageAnnotation.Client.Requests.PostRequestWrapper-1.GetResultDelegate.html
+  commentId: T:ImageAnnotation.Client.Requests.PostRequestWrapper`1.GetResultDelegate
+  name.vb: PostRequestWrapper(Of T).GetResultDelegate
+  fullName: ImageAnnotation.Client.Requests.PostRequestWrapper<T>.GetResultDelegate
+  fullName.vb: ImageAnnotation.Client.Requests.PostRequestWrapper(Of T).GetResultDelegate
+  nameWithType: PostRequestWrapper<T>.GetResultDelegate
+  nameWithType.vb: PostRequestWrapper(Of T).GetResultDelegate
+- uid: ImageAnnotation.Client.Requests.PostRequestWrapper`1.isDone
+  name: isDone
+  href: api/ImageAnnotation.Client.Requests.PostRequestWrapper-1.html#ImageAnnotation_Client_Requests_PostRequestWrapper_1_isDone
+  commentId: P:ImageAnnotation.Client.Requests.PostRequestWrapper`1.isDone
+  fullName: ImageAnnotation.Client.Requests.PostRequestWrapper<T>.isDone
+  fullName.vb: ImageAnnotation.Client.Requests.PostRequestWrapper(Of T).isDone
+  nameWithType: PostRequestWrapper<T>.isDone
+  nameWithType.vb: PostRequestWrapper(Of T).isDone
+- uid: ImageAnnotation.Client.Requests.PostRequestWrapper`1.isDone*
+  name: isDone
+  href: api/ImageAnnotation.Client.Requests.PostRequestWrapper-1.html#ImageAnnotation_Client_Requests_PostRequestWrapper_1_isDone_
+  commentId: Overload:ImageAnnotation.Client.Requests.PostRequestWrapper`1.isDone
+  isSpec: "True"
+  fullName: ImageAnnotation.Client.Requests.PostRequestWrapper<T>.isDone
+  fullName.vb: ImageAnnotation.Client.Requests.PostRequestWrapper(Of T).isDone
+  nameWithType: PostRequestWrapper<T>.isDone
+  nameWithType.vb: PostRequestWrapper(Of T).isDone
+- uid: ImageAnnotation.Client.ServerConnection
+  name: ServerConnection
+  href: api/ImageAnnotation.Client.ServerConnection.html
+  commentId: T:ImageAnnotation.Client.ServerConnection
+  fullName: ImageAnnotation.Client.ServerConnection
+  nameWithType: ServerConnection
+- uid: ImageAnnotation.Client.ServerConnection.BasePath
+  name: BasePath
+  href: api/ImageAnnotation.Client.ServerConnection.html#ImageAnnotation_Client_ServerConnection_BasePath
+  commentId: P:ImageAnnotation.Client.ServerConnection.BasePath
+  fullName: ImageAnnotation.Client.ServerConnection.BasePath
+  nameWithType: ServerConnection.BasePath
+- uid: ImageAnnotation.Client.ServerConnection.BasePath*
+  name: BasePath
+  href: api/ImageAnnotation.Client.ServerConnection.html#ImageAnnotation_Client_ServerConnection_BasePath_
+  commentId: Overload:ImageAnnotation.Client.ServerConnection.BasePath
+  isSpec: "True"
+  fullName: ImageAnnotation.Client.ServerConnection.BasePath
+  nameWithType: ServerConnection.BasePath
+- uid: ImageAnnotation.Client.ServerConnection.Instance
+  name: Instance
+  href: api/ImageAnnotation.Client.ServerConnection.html#ImageAnnotation_Client_ServerConnection_Instance
+  commentId: P:ImageAnnotation.Client.ServerConnection.Instance
+  fullName: ImageAnnotation.Client.ServerConnection.Instance
+  nameWithType: ServerConnection.Instance
+- uid: ImageAnnotation.Client.ServerConnection.Instance*
+  name: Instance
+  href: api/ImageAnnotation.Client.ServerConnection.html#ImageAnnotation_Client_ServerConnection_Instance_
+  commentId: Overload:ImageAnnotation.Client.ServerConnection.Instance
+  isSpec: "True"
+  fullName: ImageAnnotation.Client.ServerConnection.Instance
+  nameWithType: ServerConnection.Instance
+- uid: ImageAnnotation.Client.ServerConnection.UserName
+  name: UserName
+  href: api/ImageAnnotation.Client.ServerConnection.html#ImageAnnotation_Client_ServerConnection_UserName
+  commentId: F:ImageAnnotation.Client.ServerConnection.UserName
+  fullName: ImageAnnotation.Client.ServerConnection.UserName
+  nameWithType: ServerConnection.UserName
+- uid: ImageAnnotation.Marking
+  name: ImageAnnotation.Marking
+  href: api/ImageAnnotation.Marking.html
+  commentId: N:ImageAnnotation.Marking
+  fullName: ImageAnnotation.Marking
+  nameWithType: ImageAnnotation.Marking
+- uid: ImageAnnotation.Marking.CenterMarker
+  name: CenterMarker
+  href: api/ImageAnnotation.Marking.CenterMarker.html
+  commentId: T:ImageAnnotation.Marking.CenterMarker
+  fullName: ImageAnnotation.Marking.CenterMarker
+  nameWithType: CenterMarker
+- uid: ImageAnnotation.Marking.CenterMarker.Submit
+  name: Submit()
+  href: api/ImageAnnotation.Marking.CenterMarker.html#ImageAnnotation_Marking_CenterMarker_Submit
+  commentId: M:ImageAnnotation.Marking.CenterMarker.Submit
+  fullName: ImageAnnotation.Marking.CenterMarker.Submit()
+  nameWithType: CenterMarker.Submit()
+- uid: ImageAnnotation.Marking.CenterMarker.Submit*
+  name: Submit
+  href: api/ImageAnnotation.Marking.CenterMarker.html#ImageAnnotation_Marking_CenterMarker_Submit_
+  commentId: Overload:ImageAnnotation.Marking.CenterMarker.Submit
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.CenterMarker.Submit
+  nameWithType: CenterMarker.Submit
+- uid: ImageAnnotation.Marking.CraterEntry
+  name: CraterEntry
+  href: api/ImageAnnotation.Marking.CraterEntry.html
+  commentId: T:ImageAnnotation.Marking.CraterEntry
+  fullName: ImageAnnotation.Marking.CraterEntry
+  nameWithType: CraterEntry
+- uid: ImageAnnotation.Marking.CraterEntry.#ctor(Vector2,System.Single)
+  name: CraterEntry(Vector2, Single)
+  href: api/ImageAnnotation.Marking.CraterEntry.html#ImageAnnotation_Marking_CraterEntry__ctor_Vector2_System_Single_
+  commentId: M:ImageAnnotation.Marking.CraterEntry.#ctor(Vector2,System.Single)
+  fullName: ImageAnnotation.Marking.CraterEntry.CraterEntry(Vector2, System.Single)
+  nameWithType: CraterEntry.CraterEntry(Vector2, Single)
+- uid: ImageAnnotation.Marking.CraterEntry.#ctor*
+  name: CraterEntry
+  href: api/ImageAnnotation.Marking.CraterEntry.html#ImageAnnotation_Marking_CraterEntry__ctor_
+  commentId: Overload:ImageAnnotation.Marking.CraterEntry.#ctor
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.CraterEntry.CraterEntry
+  nameWithType: CraterEntry.CraterEntry
+- uid: ImageAnnotation.Marking.CraterEntry.Clone
+  name: Clone()
+  href: api/ImageAnnotation.Marking.CraterEntry.html#ImageAnnotation_Marking_CraterEntry_Clone
+  commentId: M:ImageAnnotation.Marking.CraterEntry.Clone
+  fullName: ImageAnnotation.Marking.CraterEntry.Clone()
+  nameWithType: CraterEntry.Clone()
+- uid: ImageAnnotation.Marking.CraterEntry.Clone*
+  name: Clone
+  href: api/ImageAnnotation.Marking.CraterEntry.html#ImageAnnotation_Marking_CraterEntry_Clone_
+  commentId: Overload:ImageAnnotation.Marking.CraterEntry.Clone
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.CraterEntry.Clone
+  nameWithType: CraterEntry.Clone
+- uid: ImageAnnotation.Marking.CraterEntry.Position
+  name: Position
+  href: api/ImageAnnotation.Marking.CraterEntry.html#ImageAnnotation_Marking_CraterEntry_Position
+  commentId: F:ImageAnnotation.Marking.CraterEntry.Position
+  fullName: ImageAnnotation.Marking.CraterEntry.Position
+  nameWithType: CraterEntry.Position
+- uid: ImageAnnotation.Marking.CraterEntry.Radius
+  name: Radius
+  href: api/ImageAnnotation.Marking.CraterEntry.html#ImageAnnotation_Marking_CraterEntry_Radius
+  commentId: F:ImageAnnotation.Marking.CraterEntry.Radius
+  fullName: ImageAnnotation.Marking.CraterEntry.Radius
+  nameWithType: CraterEntry.Radius
+- uid: ImageAnnotation.Marking.CraterLogger
+  name: CraterLogger
+  href: api/ImageAnnotation.Marking.CraterLogger.html
+  commentId: T:ImageAnnotation.Marking.CraterLogger
+  fullName: ImageAnnotation.Marking.CraterLogger
+  nameWithType: CraterLogger
+- uid: ImageAnnotation.Marking.CraterLogger.Clear
+  name: Clear()
+  href: api/ImageAnnotation.Marking.CraterLogger.html#ImageAnnotation_Marking_CraterLogger_Clear
+  commentId: M:ImageAnnotation.Marking.CraterLogger.Clear
+  fullName: ImageAnnotation.Marking.CraterLogger.Clear()
+  nameWithType: CraterLogger.Clear()
+- uid: ImageAnnotation.Marking.CraterLogger.Clear*
+  name: Clear
+  href: api/ImageAnnotation.Marking.CraterLogger.html#ImageAnnotation_Marking_CraterLogger_Clear_
+  commentId: Overload:ImageAnnotation.Marking.CraterLogger.Clear
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.CraterLogger.Clear
+  nameWithType: CraterLogger.Clear
+- uid: ImageAnnotation.Marking.CraterLogger.GetCraters
+  name: GetCraters()
+  href: api/ImageAnnotation.Marking.CraterLogger.html#ImageAnnotation_Marking_CraterLogger_GetCraters
+  commentId: M:ImageAnnotation.Marking.CraterLogger.GetCraters
+  fullName: ImageAnnotation.Marking.CraterLogger.GetCraters()
+  nameWithType: CraterLogger.GetCraters()
+- uid: ImageAnnotation.Marking.CraterLogger.GetCraters*
+  name: GetCraters
+  href: api/ImageAnnotation.Marking.CraterLogger.html#ImageAnnotation_Marking_CraterLogger_GetCraters_
+  commentId: Overload:ImageAnnotation.Marking.CraterLogger.GetCraters
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.CraterLogger.GetCraters
+  nameWithType: CraterLogger.GetCraters
+- uid: ImageAnnotation.Marking.CraterLogger.LogCrater(ImageAnnotation.Marking.CraterEntry)
+  name: LogCrater(CraterEntry)
+  href: api/ImageAnnotation.Marking.CraterLogger.html#ImageAnnotation_Marking_CraterLogger_LogCrater_ImageAnnotation_Marking_CraterEntry_
+  commentId: M:ImageAnnotation.Marking.CraterLogger.LogCrater(ImageAnnotation.Marking.CraterEntry)
+  fullName: ImageAnnotation.Marking.CraterLogger.LogCrater(ImageAnnotation.Marking.CraterEntry)
+  nameWithType: CraterLogger.LogCrater(CraterEntry)
+- uid: ImageAnnotation.Marking.CraterLogger.LogCrater(Vector2,System.Single)
+  name: LogCrater(Vector2, Single)
+  href: api/ImageAnnotation.Marking.CraterLogger.html#ImageAnnotation_Marking_CraterLogger_LogCrater_Vector2_System_Single_
+  commentId: M:ImageAnnotation.Marking.CraterLogger.LogCrater(Vector2,System.Single)
+  fullName: ImageAnnotation.Marking.CraterLogger.LogCrater(Vector2, System.Single)
+  nameWithType: CraterLogger.LogCrater(Vector2, Single)
+- uid: ImageAnnotation.Marking.CraterLogger.LogCrater*
+  name: LogCrater
+  href: api/ImageAnnotation.Marking.CraterLogger.html#ImageAnnotation_Marking_CraterLogger_LogCrater_
+  commentId: Overload:ImageAnnotation.Marking.CraterLogger.LogCrater
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.CraterLogger.LogCrater
+  nameWithType: CraterLogger.LogCrater
+- uid: ImageAnnotation.Marking.CraterLogger.RemoveClosest(Vector2,System.Single)
+  name: RemoveClosest(Vector2, Single)
+  href: api/ImageAnnotation.Marking.CraterLogger.html#ImageAnnotation_Marking_CraterLogger_RemoveClosest_Vector2_System_Single_
+  commentId: M:ImageAnnotation.Marking.CraterLogger.RemoveClosest(Vector2,System.Single)
+  fullName: ImageAnnotation.Marking.CraterLogger.RemoveClosest(Vector2, System.Single)
+  nameWithType: CraterLogger.RemoveClosest(Vector2, Single)
+- uid: ImageAnnotation.Marking.CraterLogger.RemoveClosest*
+  name: RemoveClosest
+  href: api/ImageAnnotation.Marking.CraterLogger.html#ImageAnnotation_Marking_CraterLogger_RemoveClosest_
+  commentId: Overload:ImageAnnotation.Marking.CraterLogger.RemoveClosest
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.CraterLogger.RemoveClosest
+  nameWithType: CraterLogger.RemoveClosest
+- uid: ImageAnnotation.Marking.CraterLogger.RemoveCrater(ImageAnnotation.Marking.CraterEntry)
+  name: RemoveCrater(CraterEntry)
+  href: api/ImageAnnotation.Marking.CraterLogger.html#ImageAnnotation_Marking_CraterLogger_RemoveCrater_ImageAnnotation_Marking_CraterEntry_
+  commentId: M:ImageAnnotation.Marking.CraterLogger.RemoveCrater(ImageAnnotation.Marking.CraterEntry)
+  fullName: ImageAnnotation.Marking.CraterLogger.RemoveCrater(ImageAnnotation.Marking.CraterEntry)
+  nameWithType: CraterLogger.RemoveCrater(CraterEntry)
+- uid: ImageAnnotation.Marking.CraterLogger.RemoveCrater*
+  name: RemoveCrater
+  href: api/ImageAnnotation.Marking.CraterLogger.html#ImageAnnotation_Marking_CraterLogger_RemoveCrater_
+  commentId: Overload:ImageAnnotation.Marking.CraterLogger.RemoveCrater
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.CraterLogger.RemoveCrater
+  nameWithType: CraterLogger.RemoveCrater
+- uid: ImageAnnotation.Marking.CraterLogger.TargetTexture
+  name: TargetTexture
+  href: api/ImageAnnotation.Marking.CraterLogger.html#ImageAnnotation_Marking_CraterLogger_TargetTexture
+  commentId: F:ImageAnnotation.Marking.CraterLogger.TargetTexture
+  fullName: ImageAnnotation.Marking.CraterLogger.TargetTexture
+  nameWithType: CraterLogger.TargetTexture
+- uid: ImageAnnotation.Marking.CraterLogger.UpdateOverridingCraters(ImageAnnotation.Marking.CraterEntry)
+  name: UpdateOverridingCraters(CraterEntry)
+  href: api/ImageAnnotation.Marking.CraterLogger.html#ImageAnnotation_Marking_CraterLogger_UpdateOverridingCraters_ImageAnnotation_Marking_CraterEntry_
+  commentId: M:ImageAnnotation.Marking.CraterLogger.UpdateOverridingCraters(ImageAnnotation.Marking.CraterEntry)
+  fullName: ImageAnnotation.Marking.CraterLogger.UpdateOverridingCraters(ImageAnnotation.Marking.CraterEntry)
+  nameWithType: CraterLogger.UpdateOverridingCraters(CraterEntry)
+- uid: ImageAnnotation.Marking.CraterLogger.UpdateOverridingCraters(Vector2,System.Single)
+  name: UpdateOverridingCraters(Vector2, Single)
+  href: api/ImageAnnotation.Marking.CraterLogger.html#ImageAnnotation_Marking_CraterLogger_UpdateOverridingCraters_Vector2_System_Single_
+  commentId: M:ImageAnnotation.Marking.CraterLogger.UpdateOverridingCraters(Vector2,System.Single)
+  fullName: ImageAnnotation.Marking.CraterLogger.UpdateOverridingCraters(Vector2, System.Single)
+  nameWithType: CraterLogger.UpdateOverridingCraters(Vector2, Single)
+- uid: ImageAnnotation.Marking.CraterLogger.UpdateOverridingCraters*
+  name: UpdateOverridingCraters
+  href: api/ImageAnnotation.Marking.CraterLogger.html#ImageAnnotation_Marking_CraterLogger_UpdateOverridingCraters_
+  commentId: Overload:ImageAnnotation.Marking.CraterLogger.UpdateOverridingCraters
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.CraterLogger.UpdateOverridingCraters
+  nameWithType: CraterLogger.UpdateOverridingCraters
+- uid: ImageAnnotation.Marking.ICraterCollector
+  name: ICraterCollector
+  href: api/ImageAnnotation.Marking.ICraterCollector.html
+  commentId: T:ImageAnnotation.Marking.ICraterCollector
+  fullName: ImageAnnotation.Marking.ICraterCollector
+  nameWithType: ICraterCollector
+- uid: ImageAnnotation.Marking.ICraterCollector.AddCraters(System.String,ImageAnnotation.Marking.CraterEntry[])
+  name: AddCraters(String, CraterEntry[])
+  href: api/ImageAnnotation.Marking.ICraterCollector.html#ImageAnnotation_Marking_ICraterCollector_AddCraters_System_String_ImageAnnotation_Marking_CraterEntry___
+  commentId: M:ImageAnnotation.Marking.ICraterCollector.AddCraters(System.String,ImageAnnotation.Marking.CraterEntry[])
+  name.vb: AddCraters(String, CraterEntry())
+  fullName: ImageAnnotation.Marking.ICraterCollector.AddCraters(System.String, ImageAnnotation.Marking.CraterEntry[])
+  fullName.vb: ImageAnnotation.Marking.ICraterCollector.AddCraters(System.String, ImageAnnotation.Marking.CraterEntry())
+  nameWithType: ICraterCollector.AddCraters(String, CraterEntry[])
+  nameWithType.vb: ICraterCollector.AddCraters(String, CraterEntry())
+- uid: ImageAnnotation.Marking.ICraterCollector.AddCraters*
+  name: AddCraters
+  href: api/ImageAnnotation.Marking.ICraterCollector.html#ImageAnnotation_Marking_ICraterCollector_AddCraters_
+  commentId: Overload:ImageAnnotation.Marking.ICraterCollector.AddCraters
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.ICraterCollector.AddCraters
+  nameWithType: ICraterCollector.AddCraters
+- uid: ImageAnnotation.Marking.MapMovement
+  name: MapMovement
+  href: api/ImageAnnotation.Marking.MapMovement.html
+  commentId: T:ImageAnnotation.Marking.MapMovement
+  fullName: ImageAnnotation.Marking.MapMovement
+  nameWithType: MapMovement
+- uid: ImageAnnotation.Marking.MarkingPanel
+  name: MarkingPanel
+  href: api/ImageAnnotation.Marking.MarkingPanel.html
+  commentId: T:ImageAnnotation.Marking.MarkingPanel
+  fullName: ImageAnnotation.Marking.MarkingPanel
+  nameWithType: MarkingPanel
+- uid: ImageAnnotation.Marking.MarkingPanel.Close
+  name: Close()
+  href: api/ImageAnnotation.Marking.MarkingPanel.html#ImageAnnotation_Marking_MarkingPanel_Close
+  commentId: M:ImageAnnotation.Marking.MarkingPanel.Close
+  fullName: ImageAnnotation.Marking.MarkingPanel.Close()
+  nameWithType: MarkingPanel.Close()
+- uid: ImageAnnotation.Marking.MarkingPanel.Close*
+  name: Close
+  href: api/ImageAnnotation.Marking.MarkingPanel.html#ImageAnnotation_Marking_MarkingPanel_Close_
+  commentId: Overload:ImageAnnotation.Marking.MarkingPanel.Close
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.MarkingPanel.Close
+  nameWithType: MarkingPanel.Close
+- uid: ImageAnnotation.Marking.MarkingPanel.FinishMarking
+  name: FinishMarking()
+  href: api/ImageAnnotation.Marking.MarkingPanel.html#ImageAnnotation_Marking_MarkingPanel_FinishMarking
+  commentId: M:ImageAnnotation.Marking.MarkingPanel.FinishMarking
+  fullName: ImageAnnotation.Marking.MarkingPanel.FinishMarking()
+  nameWithType: MarkingPanel.FinishMarking()
+- uid: ImageAnnotation.Marking.MarkingPanel.FinishMarking*
+  name: FinishMarking
+  href: api/ImageAnnotation.Marking.MarkingPanel.html#ImageAnnotation_Marking_MarkingPanel_FinishMarking_
+  commentId: Overload:ImageAnnotation.Marking.MarkingPanel.FinishMarking
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.MarkingPanel.FinishMarking
+  nameWithType: MarkingPanel.FinishMarking
+- uid: ImageAnnotation.Marking.MarkingPanel.Open
+  name: Open()
+  href: api/ImageAnnotation.Marking.MarkingPanel.html#ImageAnnotation_Marking_MarkingPanel_Open
+  commentId: M:ImageAnnotation.Marking.MarkingPanel.Open
+  fullName: ImageAnnotation.Marking.MarkingPanel.Open()
+  nameWithType: MarkingPanel.Open()
+- uid: ImageAnnotation.Marking.MarkingPanel.Open*
+  name: Open
+  href: api/ImageAnnotation.Marking.MarkingPanel.html#ImageAnnotation_Marking_MarkingPanel_Open_
+  commentId: Overload:ImageAnnotation.Marking.MarkingPanel.Open
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.MarkingPanel.Open
+  nameWithType: MarkingPanel.Open
+- uid: ImageAnnotation.Marking.MarkingPanel.StartMarking(Texture2D,ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate)
+  name: StartMarking(Texture2D, MarkingPanel.SubmitCratersDelegate)
+  href: api/ImageAnnotation.Marking.MarkingPanel.html#ImageAnnotation_Marking_MarkingPanel_StartMarking_Texture2D_ImageAnnotation_Marking_MarkingPanel_SubmitCratersDelegate_
+  commentId: M:ImageAnnotation.Marking.MarkingPanel.StartMarking(Texture2D,ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate)
+  fullName: ImageAnnotation.Marking.MarkingPanel.StartMarking(Texture2D, ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate)
+  nameWithType: MarkingPanel.StartMarking(Texture2D, MarkingPanel.SubmitCratersDelegate)
+- uid: ImageAnnotation.Marking.MarkingPanel.StartMarking*
+  name: StartMarking
+  href: api/ImageAnnotation.Marking.MarkingPanel.html#ImageAnnotation_Marking_MarkingPanel_StartMarking_
+  commentId: Overload:ImageAnnotation.Marking.MarkingPanel.StartMarking
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.MarkingPanel.StartMarking
+  nameWithType: MarkingPanel.StartMarking
+- uid: ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate
+  name: MarkingPanel.SubmitCratersDelegate
+  href: api/ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate.html
+  commentId: T:ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate
+  fullName: ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate
+  nameWithType: MarkingPanel.SubmitCratersDelegate
+- uid: ImageAnnotation.Marking.TwoFingerMarker
+  name: TwoFingerMarker
+  href: api/ImageAnnotation.Marking.TwoFingerMarker.html
+  commentId: T:ImageAnnotation.Marking.TwoFingerMarker
+  fullName: ImageAnnotation.Marking.TwoFingerMarker
+  nameWithType: TwoFingerMarker
+- uid: ImageAnnotation.Marking.Visuals
+  name: ImageAnnotation.Marking.Visuals
+  href: api/ImageAnnotation.Marking.Visuals.html
+  commentId: N:ImageAnnotation.Marking.Visuals
+  fullName: ImageAnnotation.Marking.Visuals
+  nameWithType: ImageAnnotation.Marking.Visuals
+- uid: ImageAnnotation.Marking.Visuals.CraterVisual
+  name: CraterVisual
+  href: api/ImageAnnotation.Marking.Visuals.CraterVisual.html
+  commentId: T:ImageAnnotation.Marking.Visuals.CraterVisual
+  fullName: ImageAnnotation.Marking.Visuals.CraterVisual
+  nameWithType: CraterVisual
+- uid: ImageAnnotation.Marking.Visuals.CraterVisual.Delete
+  name: Delete()
+  href: api/ImageAnnotation.Marking.Visuals.CraterVisual.html#ImageAnnotation_Marking_Visuals_CraterVisual_Delete
+  commentId: M:ImageAnnotation.Marking.Visuals.CraterVisual.Delete
+  fullName: ImageAnnotation.Marking.Visuals.CraterVisual.Delete()
+  nameWithType: CraterVisual.Delete()
+- uid: ImageAnnotation.Marking.Visuals.CraterVisual.Delete*
+  name: Delete
+  href: api/ImageAnnotation.Marking.Visuals.CraterVisual.html#ImageAnnotation_Marking_Visuals_CraterVisual_Delete_
+  commentId: Overload:ImageAnnotation.Marking.Visuals.CraterVisual.Delete
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.Visuals.CraterVisual.Delete
+  nameWithType: CraterVisual.Delete
+- uid: ImageAnnotation.Marking.Visuals.CraterVisual.SetPreviewDelete(System.Boolean)
+  name: SetPreviewDelete(Boolean)
+  href: api/ImageAnnotation.Marking.Visuals.CraterVisual.html#ImageAnnotation_Marking_Visuals_CraterVisual_SetPreviewDelete_System_Boolean_
+  commentId: M:ImageAnnotation.Marking.Visuals.CraterVisual.SetPreviewDelete(System.Boolean)
+  fullName: ImageAnnotation.Marking.Visuals.CraterVisual.SetPreviewDelete(System.Boolean)
+  nameWithType: CraterVisual.SetPreviewDelete(Boolean)
+- uid: ImageAnnotation.Marking.Visuals.CraterVisual.SetPreviewDelete*
+  name: SetPreviewDelete
+  href: api/ImageAnnotation.Marking.Visuals.CraterVisual.html#ImageAnnotation_Marking_Visuals_CraterVisual_SetPreviewDelete_
+  commentId: Overload:ImageAnnotation.Marking.Visuals.CraterVisual.SetPreviewDelete
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.Visuals.CraterVisual.SetPreviewDelete
+  nameWithType: CraterVisual.SetPreviewDelete
+- uid: ImageAnnotation.Marking.Visuals.IDeletableCraterVisual
+  name: IDeletableCraterVisual
+  href: api/ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.html
+  commentId: T:ImageAnnotation.Marking.Visuals.IDeletableCraterVisual
+  fullName: ImageAnnotation.Marking.Visuals.IDeletableCraterVisual
+  nameWithType: IDeletableCraterVisual
+- uid: ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.Delete
+  name: Delete()
+  href: api/ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.html#ImageAnnotation_Marking_Visuals_IDeletableCraterVisual_Delete
+  commentId: M:ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.Delete
+  fullName: ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.Delete()
+  nameWithType: IDeletableCraterVisual.Delete()
+- uid: ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.Delete*
+  name: Delete
+  href: api/ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.html#ImageAnnotation_Marking_Visuals_IDeletableCraterVisual_Delete_
+  commentId: Overload:ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.Delete
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.Delete
+  nameWithType: IDeletableCraterVisual.Delete
+- uid: ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.SetPreviewDelete(System.Boolean)
+  name: SetPreviewDelete(Boolean)
+  href: api/ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.html#ImageAnnotation_Marking_Visuals_IDeletableCraterVisual_SetPreviewDelete_System_Boolean_
+  commentId: M:ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.SetPreviewDelete(System.Boolean)
+  fullName: ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.SetPreviewDelete(System.Boolean)
+  nameWithType: IDeletableCraterVisual.SetPreviewDelete(Boolean)
+- uid: ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.SetPreviewDelete*
+  name: SetPreviewDelete
+  href: api/ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.html#ImageAnnotation_Marking_Visuals_IDeletableCraterVisual_SetPreviewDelete_
+  commentId: Overload:ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.SetPreviewDelete
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.Visuals.IDeletableCraterVisual.SetPreviewDelete
+  nameWithType: IDeletableCraterVisual.SetPreviewDelete
+- uid: ImageAnnotation.UiUtils
+  name: UiUtils
+  href: api/ImageAnnotation.UiUtils.html
+  commentId: T:ImageAnnotation.UiUtils
+  fullName: ImageAnnotation.UiUtils
+  nameWithType: UiUtils
