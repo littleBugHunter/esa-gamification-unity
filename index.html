@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Image Annotation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Image Annotation ">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="image-annotation">Image Annotation</h1>
+
+<p>A package to annotate Images for the ESA Moon Lander Project. This Package provides functions to interface with the Server and multiple example Marking Techniques, like Maps Like Marking and Two Finger Marking</p>
+<h2 id="installation">Installation</h2>
+<h3 id="1-prerequisites">1. Prerequisites</h3>
+<h4 id="naughty-attributes"><a href="https://github.com/dbrizov/NaughtyAttributes">Naughty Attributes</a></h4>
+<p>This package depends on the Naughty Attributes package. Please make sure to install it beforehand:
+Go to the Unity Package Manager and click the <code>➕</code> Sign in the top left corner to &quot;Add from git URL&quot; then paste the following Link:
+<code>https://github.com/dbrizov/NaughtyAttributes.git#upm</code></p>
+<h3 id="2-package-installation">2. Package Installation</h3>
+<p>Go to the Unity Package Manager and click the <code>➕</code> Sign in the top left corner to &quot;Add from git URL&quot; then paste the following Link:
+<code>https://github.com/littleBugHunter/esa-gamification-unity.git#upm</code></p>
+<h2 id="samples">Samples</h2>
+<p>The Package comes with Samples that can be selected from the Unity Package Manager. In the Samples you will find example Setups for the different Marking Setups along with Prefabs.
+The Example Scenes can be found in: <code>Assets/Samples/Annotation/Scenes</code></p>
+<h2 id="component-setup-diagram">Component Setup Diagram</h2>
+<pre><code class="lang-mermaid">graph
+    subgraph UI [UI]
+    MP[MarkingPanel]
+    M[Markers&lt;br/&gt;&lt;i&gt;*TwoFingerMarker&lt;/i&gt;&lt;br&gt;&lt;i&gt;*CenterMarker&lt;/i&gt;]
+    CL[CraterLogger]
+    RT[RawTexture&lt;br&gt;for displaying crater images]
+    MM[*MapMovement]
+    end
+    subgraph ServerConnection [ServerConnection]
+    SC[ServerConnection]
+    PMC[PuzzleModeClient]
+    end
+    subgraph CustomCode [CustomCode]
+    BTN_Start[Start Button]
+    SCORE[Score]
+    end
+    subgraph CustomCode2 [CustomCode]
+    BTN_Submit[Submit Button]
+    end
+    
+    PMC--&gt;|uses| SC
+    BTN_Start--&gt;|&quot;starts via StartPuzzle()&quot;| PMC
+    PMC--&gt;|&quot;StartPuzzle() opens and closes&quot;| MP
+    MP--&gt;|activates and deactivates| M
+    MP--&gt;|sets|RT
+    CL--&gt;|draws marker circles|RT
+    M--&gt;|adds and removes craters|CL
+    MP--&gt;|reads craters|CL
+    MM--&gt;|shifts and zooms|RT
+    BTN_Submit--&gt;|&quot;FinishMarking() submits marked craters&quot;|MP
+    PMC--&gt;|&quot;OnPuzzleDone event is called and reports score&quot;|SCORE
+</code></pre>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/littleBugHunter/esa-gamification-unity/blob/main/docfx_project/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
