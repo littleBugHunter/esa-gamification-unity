@@ -1,3 +1,6 @@
+/* A Marker that just marks Craters at the Center of the UI. Should be used in Conjunction with MapMovement
+ * <author>Paul Nasdalack</author>
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,7 +8,10 @@ using UnityEngine.UI;
 
 namespace ImageAnnotation.Marking
 {
-    [AddComponentMenu("Image Annotation/Marking/Center Marker")]
+	/// <summary>
+	/// A Marker that just marks Craters at the Center of the UI. Should be used in Conjunction with MapMovement
+	/// </summary>
+	[AddComponentMenu("Image Annotation/Marking/Center Marker")]
     public class CenterMarker : MonoBehaviour
     {
         [SerializeField]
@@ -26,7 +32,9 @@ namespace ImageAnnotation.Marking
             }
             Gizmos.matrix = Matrix4x4.identity;
         }
-
+        /// <summary>
+        /// This Function must be called from User Code (e.g. when pressing a Button) to log a crater in the CraterLogger
+        /// </summary>
         public void Submit() {
             Vector2 pos = (Vector2)_targetImage.transform.InverseTransformPoint(transform.position) + Vector2.one * 0.5f;
             pos.y = 1-pos.y;
