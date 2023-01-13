@@ -1,6 +1,6 @@
 {
 	"name": "com.paul-nasdalack.image-annotation",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"displayName": "ESA Image Annotation",
 	"description": "This is an example package",
 	"unity": "2021.3",
