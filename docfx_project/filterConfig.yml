@@ -1,0 +1,7 @@
+
+
+apiRules:
+- include:
+    uidRegex: ^ImageAnnotation\..*
+- exclude:
+    uidRegex: ^.*
