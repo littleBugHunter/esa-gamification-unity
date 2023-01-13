@@ -10,6 +10,7 @@ using ImageAnnotation.Marking;
 using System.Collections.Generic;
 using UnityEngine.Events;
 using UnityEngine.Serialization;
+using System.ComponentModel;
 
 namespace ImageAnnotation.Client
 {
@@ -33,7 +34,8 @@ namespace ImageAnnotation.Client
         [SerializeField, FormerlySerializedAs("_markingPanel"), Required]
         public MarkingPanel MarkingPanel;
         [Serializable]
-        public class PuzzleDoneEvent : UnityEvent<PuzzleScore>
+		[EditorBrowsable(EditorBrowsableState.Never)]
+		public class PuzzleDoneEvent : UnityEvent<PuzzleScore>
         { }
 		/// <summary>
 		/// This Event will be invoked once all puzzles have been completed and a score was calculated.
@@ -46,26 +48,31 @@ namespace ImageAnnotation.Client
 
         #endregion
         #region Structs
+        [EditorBrowsable(EditorBrowsableState.Never)]
         [Serializable]
         public struct Puzzle
-        {
-            [Serializable]
+		{
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			[Serializable]
             public struct Slice
             {
                 public int id;
                 public string image;
             }
             public Slice[] slices;
-        }
-        [Serializable]
+		}
+		[EditorBrowsable(EditorBrowsableState.Never)]
+		[Serializable]
         public struct SolvedPuzzle
-        {
-            [Serializable]
+		{
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			[Serializable]
             public struct Slice
             {
                 public int id;
                 public string image;
-                [Serializable]
+				[EditorBrowsable(EditorBrowsableState.Never)]
+				[Serializable] 
                 public struct Circle
                 {
                     public float x;
@@ -91,19 +98,19 @@ namespace ImageAnnotation.Client
                 /// <summary>
                 /// How many craters were in all known images
                 /// </summary>
-                int totalPossible;
-                /// <summary>
-                /// How many craters were correctly marked
-                /// </summary>
-                int totalHit;
-                /// <summary>
-                /// How many craters were left unmarked
-                /// </summary>
-				int totalMissed;
+                public int totalPossible;
+				/// <summary>
+				/// How many craters were correctly marked
+				/// </summary>
+				public int totalHit;
+				/// <summary>
+				/// How many craters were left unmarked
+				/// </summary>
+				public int totalMissed;
 				/// <summary>
 				/// How many marks were created in places where no crater was present
 				/// </summary>
-				int totalFalse;
+				public int totalFalse;
             }
             /// <summary>
             /// Information about the absolute numbers of craters marked in all <b>known</b> images.
@@ -113,18 +120,18 @@ namespace ImageAnnotation.Client
             [Serializable]
             public struct RelativeResults
             {
-                /// <summary>
-                /// Percentage (0-1) of craters marked vs the total amount of craters present in the image
-                /// </summary>
-                float hit;
+				/// <summary>
+				/// Percentage (0-1) of craters marked vs the total amount of craters present in the image
+				/// </summary>
+				public float hit;
 				/// <summary>
 				/// Percentage (0-1) of craters that were left unmarked
 				/// </summary>
-				float missed;
+				public float missed;
 				/// <summary>
 				/// Percentage (0-1) of marks placed without a crater being present
 				/// </summary>
-				float invalid;
+				public float invalid;
             }
 			/// <summary>
 			/// Information about the relative numbers of craters marked in all <b>known</b> images.
