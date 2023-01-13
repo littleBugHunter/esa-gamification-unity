@@ -165,17 +165,20 @@ namespace ImageAnnotation.Client
             var solved = new SolvedPuzzle();
             solved.user = ServerConnection.Instance.UserName;
             solved.slices = new List<SolvedPuzzle.Slice>();
-            foreach(var slice in puzzle.slices)
+            for (int sliceIndex = 0; sliceIndex < puzzle.slices.Length;)
             {
-                if(solved.slices.FindIndex((s) => slice.id == s.id) > 0)
+                Puzzle.Slice slice = puzzle.slices[sliceIndex];
+                if (solved.slices.FindIndex((s) => slice.id == s.id) > 0)
                 {
                     continue;
                 }
                 var imageRequest = new GetTexture("slices/" + slice.image);
                 yield return new WaitUntil(() => imageRequest.isDone);
                 var texture = imageRequest.GetResult();
-                var sliceDone = false;
-                MarkingPanel.StartMarking(texture, (entries) =>
+				var sliceDone = false;
+				var skipped = false;
+                var skipReason = SkipReason.Other;
+				MarkingPanel.StartMarking(texture, (entries) =>
                 {
                     var solvedSlice = new SolvedPuzzle.Slice();
                     solvedSlice.image = slice.image;
@@ -191,8 +194,20 @@ namespace ImageAnnotation.Client
                     solvedSlice.circles = circles;
                     solved.slices.Add(solvedSlice);
                     sliceDone = true;
-                });
-                yield return new WaitUntil(() => sliceDone);
+                }, (reason) =>
+                {
+					skipped = true;
+					skipReason = reason;
+				});
+                yield return new WaitUntil(() => sliceDone || skipped);
+                if(sliceDone)
+                {
+					sliceIndex++;
+				}
+                if(skipped)
+                {
+                    //TODO: Handle Skipping
+                }
             }
             var solvedJson = JsonUtility.ToJson(solved);
             var scoreRequest = new PostObjectJson<PuzzleScore>("submit/", solvedJson);

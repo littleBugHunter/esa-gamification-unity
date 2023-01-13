@@ -74,6 +74,7 @@
     <Compile Include="Assets\image-annotation\Runtime\Client\Requests\GetObjectJson.cs" />
     <Compile Include="Assets\image-annotation\Runtime\Marking\Visuals\CraterVisual.cs" />
     <Compile Include="Assets\image-annotation\Runtime\Marking\CraterEntry.cs" />
+    <Compile Include="Assets\image-annotation\Runtime\Client\SkipReason.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\image-annotation\Runtime\ImageAnnotation.asmdef" />

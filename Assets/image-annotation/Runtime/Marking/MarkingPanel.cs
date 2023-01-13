@@ -1,6 +1,7 @@
 /* A UI Component for a Panel that is used for Marking the Craters
  * <author>Paul Nasdalack</author>
  */
+using ImageAnnotation.Client;
 using NaughtyAttributes;
 using System;
 using System.Collections;
@@ -23,17 +24,19 @@ namespace ImageAnnotation.Marking
         #endregion
         #region Private Variables
         public delegate void SubmitCratersDelegate(CraterEntry[] entries);
-        SubmitCratersDelegate _submitCraters;
-        #endregion
+		SubmitCratersDelegate _submitCraters;
+		public delegate void SkipImageDelegate(SkipReason reason);
+		SkipImageDelegate _skipImage;
+		#endregion
 
-        #region Unity Functions
+		#region Unity Functions
 
-        #endregion
-        #region Public Functions
-        /// <summary>
-        /// Shows the Panel and clears the Marking Texture
-        /// </summary>
-        public void Open()
+		#endregion
+		#region Public Functions
+		/// <summary>
+		/// Shows the Panel and clears the Marking Texture
+		/// </summary>
+		public void Open()
         {
             gameObject.SetActive(true);
             _craterLogger.TargetTexture.texture = null;
@@ -61,39 +64,60 @@ namespace ImageAnnotation.Marking
 		/// </summary>
         /// <param name="texture">The Texture that will be shown for marking</param>
         /// <param name="submitCraters">A Delegate that will be called once the logging is complete in order to log all marked craters</param>
-		public void StartMarking(Texture2D texture, SubmitCratersDelegate submitCraters)
+		public void StartMarking(Texture2D texture, SubmitCratersDelegate submitCraters, SkipImageDelegate skipImage = null)
         {
             _craterLogger.TargetTexture.texture = texture;
             _craterLogger.Clear();
-            _submitCraters = submitCraters;
-            if (_markingObject != null)
+			_submitCraters = submitCraters;
+			_skipImage = skipImage;
+			if (_markingObject != null)
             {
                 _markingObject.SetActive(true);
             }
 
-        }
+		}
 
 		/// <summary>
 		/// Hides the Marking Texture, Submits the Logged Craters and disables the Marking Object
 		/// </summary>
 		public void FinishMarking()
-        {
-            if(_submitCraters != null)
-            {
-                _submitCraters(_craterLogger.GetCraters().ToArray());
-                _submitCraters = null;
-            }
-            _craterLogger.Clear();
-            _craterLogger.TargetTexture.texture = null;
-            if (_markingObject != null)
-            {
-                _markingObject.SetActive(false);
-            }
-        }
-        #endregion
+		{
+			if (_submitCraters != null)
+			{
+				_submitCraters(_craterLogger.GetCraters().ToArray());
+				_submitCraters = null;
+			}
+			_craterLogger.Clear();
+			_craterLogger.TargetTexture.texture = null;
+			if (_markingObject != null)
+			{
+				_markingObject.SetActive(false);
+			}
+		}
 
-        #region Private Functions
+		/// <summary>
+		/// Skips the currently shown image, given the reason
+		/// </summary>
+		public void SkipImage(SkipReason reason)
+		{
+			if (_skipImage == null)
+			{
+				Debug.LogWarning("Cannot Skip! No skip delegate was passed in StartMarking()");
+				return;
+			}
+			_skipImage(reason);
+			_submitCraters = null;
+			_craterLogger.Clear();
+			_craterLogger.TargetTexture.texture = null;
+			if (_markingObject != null)
+			{
+				_markingObject.SetActive(false);
+			}
+		}
+		#endregion
 
-        #endregion
-    }
+		#region Private Functions
+
+		#endregion
+	}
 }
