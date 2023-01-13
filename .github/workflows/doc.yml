@@ -12,7 +12,7 @@ jobs:
       with:
         dotnet-version: 6.x
 
-    - run: dotnet install -g docfx
+    - run: dotnet tool update -g docfx
     - run: docfx docs/docfx.json
 
     - name: Deploy
