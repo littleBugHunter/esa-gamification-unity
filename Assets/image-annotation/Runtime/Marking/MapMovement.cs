@@ -1,3 +1,6 @@
+/* Moves the Crater image around in a Google Maps like fashion
+ * <author>Paul Nasdalack</author>
+ */
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -5,7 +8,10 @@ using UnityEngine;
 
 namespace ImageAnnotation.Marking
 {
-    [AddComponentMenu("Image Annotation/Marking/Map Movement")]
+	/// <summary>
+	/// Moves the Crater image around in a Google Maps like fashion
+	/// </summary>
+	[AddComponentMenu("Image Annotation/Marking/Map Movement")]
     public class MapMovement : MonoBehaviour
     {
         Touch[] _lastTouches = new Touch[0];

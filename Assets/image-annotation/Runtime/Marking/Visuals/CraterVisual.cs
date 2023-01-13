@@ -57,6 +57,10 @@ namespace ImageAnnotation.Marking.Visuals
         }
         #endregion
         #region Public Functions
+        /// <summary>
+        /// Set the Visual to preview it's own deletion (by blinking or greying out)
+        /// </summary>
+        /// <param name="delete">Wether or not the delete state should be set</param>
         public void SetPreviewDelete(bool delete)
         {
             switch(_mode)
@@ -68,8 +72,12 @@ namespace ImageAnnotation.Marking.Visuals
                     _animator.SetBool(_markedForDeleteParameter, delete);
                     break;
             }
-        }
-        public void Delete()
+		}
+		/// <summary>
+		/// Delete the Visual.
+		/// This does not delete the entry in the logger. Consider Calling CraterLogger.RemoveCrater() instead
+		/// </summary>
+		public void Delete()
         {
             switch(_mode)
             {
