@@ -70,8 +70,17 @@
 <h1 id="image-annotation">Image Annotation</h1>
 
 <p>A package to annotate Images for the ESA Moon Lander Project. This Package provides functions to interface with the Server and multiple example Marking Techniques, like Maps Like Marking and Two Finger Marking</p>
+<h2 id="links">Links</h2>
+<p><a href="https://github.com/littleBugHunter/esa-gamification-unity">Github Repo</a>
+<a href="https://littlebughunter.github.io/esa-gamification-unity/">Documentation</a>
+<a href="https://littlebughunter.github.io/esa-gamification-unity/api">API Reference</a></p>
 <h2 id="installation">Installation</h2>
 <h3 id="1-prerequisites">1. Prerequisites</h3>
+<h4 id="git"><a href="https://git-scm.com/">Git</a></h4>
+<p>You must have git installed in order to use the Unity Package Manager.
+The command line version from the <a href="https://git-scm.com/downloads">Downloads Section</a> should be enough.
+Make sure to add git to your Environment Variables (PATH). This can be done via the installer.
+If you're still facing problems check the <a href="https://docs.unity3d.com/Manual/upm-git.html">Unity Documentation</a> for the Pacakage Manager</p>
 <h4 id="naughty-attributes"><a href="https://github.com/dbrizov/NaughtyAttributes">Naughty Attributes</a></h4>
 <p>This package depends on the Naughty Attributes package. Please make sure to install it beforehand:
 Go to the Unity Package Manager and click the <code>➕</code> Sign in the top left corner to &quot;Add from git URL&quot; then paste the following Link:
@@ -82,7 +91,33 @@ Go to the Unity Package Manager and click the <code>➕</code> Sign in the top l
 <h2 id="samples">Samples</h2>
 <p>The Package comes with Samples that can be selected from the Unity Package Manager. In the Samples you will find example Setups for the different Marking Setups along with Prefabs.
 The Example Scenes can be found in: <code>Assets/Samples/Annotation/Scenes</code></p>
-<h2 id="component-setup-diagram">Component Setup Diagram</h2>
+<h2 id="component-setup">Component Setup</h2>
+<p>To customize the look and behaviour of the Annotation tool I reccommend copying the GameObjects from one of the Samples Scenes.</p>
+<h3 id="general-structure">General Structure</h3>
+<p>The Annotation tool is split into two main categories. Managers taking care of the Server Connection and the UI Taking care of the actual Annotation Process.</p>
+<h4 id="managers">Managers</h4>
+<p>You will always need a <code>ServerConnection</code> Component, so the App knows how to communicate with the server.
+On top of that you will need a Client for each of the Modes. For now we only have the <code>PuzzleModeClient</code>.
+The Client takes care of fetching, presenting and submitting the images.</p>
+<h4 id="ui">UI</h4>
+<p>The UI is split into 3 Main Component Groups</p>
+<h5 id="panels">Panels</h5>
+<p>Panels are shown and hidden by the Client when needed. For example the <code>PuzzleClient</code> shows a <code>MarkingPanel</code> to prompt the User to mark an image.
+Panels usually hold the other UI Components</p>
+<h5 id="markers">Markers</h5>
+<p>Markers offer the User various ways of marking an image. Depending on which Marker you place, the Marking User Experience will Change.
+Right now we have two different Markers. The <code>TwoFingerMarker</code> and the <code>CenterMarker</code> (for Maps Style Marking)</p>
+<h5 id="visuals">Visuals</h5>
+<p>Visuals are UI Component Prefabs that will be placed by the different UI Components.
+For example the <code>CraterLogger</code> places CraterVisuals to show here the user has marked already. And the <code>TwoFingerMarking</code> has optional Visuals to show around the fingers, in the center and as lines between the fingers.
+Visuals often have specific requirements to their Scale and setup.
+If you want to skin your own visuals I reccomend copying the Visual Prefabs from the Samples folder</p>
+<h4 id="crater-logger">Crater Logger</h4>
+<p>The <code>CraterLogger</code> is a temporary storage of the currently placed craters. It takes care of rendering Visuals and communicates the craters to the active Client.</p>
+<h3 id="connecting-your-custom-code">Connecting your custom code</h3>
+<p>Your custom code should call the <code>StartPuzzle()</code> function of the <code>PuzzleModeClient</code>. The Client will then fetch the puzzle data from the server and open up the <code>MarkingPanel</code>.
+You should give the user the possibility to call the <code>FinishMarking()</code> function on your <code>MarkingPanel</code> to go on to the next puzzle. This can be done with a Button for example.
+Once all Images have been annotated, the <code>PuzzleModeClient</code> will submit them to the server and fetch a Score Object which contains the annotation accuracy. It will then invoke the <code>OnPuzzleDone</code> event which you can hook into in order to give out rewards and continue on with the gameplay.</p>
 <pre><code class="lang-mermaid">graph
     subgraph UI [UI]
     MP[MarkingPanel]
