@@ -1,5 +1,5 @@
 /* Two finger Annotation Marker
- * Places new Craters at the Center point between two _fingers
+ * Places new Craters at the Center point between two Fingers
  * <author>Paul Nasdalack</author>
  */
 
@@ -15,7 +15,10 @@ using UnityEngine.VFX;
 
 namespace ImageAnnotation.Marking
 {
-    [AddComponentMenu("Image Annotation/Marking/Two Finger Marker")]
+	/// <summary>
+	/// Two finger Annotation Marker
+	/// </summary>
+	[AddComponentMenu("Image Annotation/Marking/Two Finger Marker")]
     public class TwoFingerMarker : MonoBehaviour
     {
         #region Serialized Fields
@@ -25,23 +28,21 @@ namespace ImageAnnotation.Marking
         [InfoBox("The Visuals will be spawned on and between the fingers to preview the placing action. Some of them will be scaled up and down, so make sure to read the Tooltips")]
         [SerializeField, Foldout("Visuals")]
         private RawImage _targetImage;
-        [Tooltip("A Prefab that will be spawned around the Finger Positions")]
+        [InfoBox("A Prefab that will be spawned around the Finger Positions")]
         [SerializeField, Foldout("Visuals")]
         private Transform _fingerVisualPrefab;
-        [Tooltip("A Prefab that will be Between the Fingers. It should have a height of 1.0, as it will be scaled")]
+        [InfoBox("A Prefab that will be Between the Fingers. It should have a height of 1.0, as it will be scaled")]
         [SerializeField, Foldout("Visuals")]
         private Transform _lineVisualPrefab;
-        [Tooltip("A Prefab that preview the crater Circle. It will appear at the center between the fingers and scale depending on the finger distance. That's why it should have a radius of 1.0 (width and height of 2.0)")]
+        [InfoBox("A Prefab that preview the crater Circle. It will appear at the center between the fingers and scale depending on the finger distance. That's why it should have a radius of 1.0 (width and height of 2.0)")]
         [SerializeField, Foldout("Visuals")]
         private Transform _centerVisualPrefab;
 
-        [SerializeField, Foldout("Interaction")]
         [Range(0, 1)]
         private float _minFingerDistance = 0.1f;
-        [SerializeField, Foldout("Interaction")]
         [Range(0,3)]
         private float _maxFingerDistance = 1.0f;
-        [SerializeField, Foldout("Interaction")]
+        [SerializeField, Foldout("Interaction"), InfoBox("Shapes the relation between finger distance and crater size")]
         private float _radiusPower = 2.0f;
         #endregion
         #region Private Variables
