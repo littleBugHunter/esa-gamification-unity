@@ -179,8 +179,6 @@ MonoBehaviour:
     type: 3}
   _centerVisualPrefab: {fileID: 7092648967367558233, guid: dd140c911e4d39544be160c21cfd6fb7,
     type: 3}
-  _minFingerDistance: 0.1
-  _maxFingerDistance: 2.5
   _radiusPower: 2
 --- !u!1 &47890062
 GameObject:
