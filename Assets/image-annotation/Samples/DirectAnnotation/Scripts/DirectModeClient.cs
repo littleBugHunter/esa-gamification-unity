@@ -22,6 +22,8 @@ namespace ImageAnnotation.Samples.DirectMode
         [SerializeField]
         public UnityEvent OnPuzzleDone;
         [SerializeField]
+        public UnityEvent OnPuzzleSkipped;
+        [SerializeField]
         private StateGroup _stateGroup;
         [SerializeField]
         private StateSwitcher stateSwitcher;
@@ -31,7 +33,7 @@ namespace ImageAnnotation.Samples.DirectMode
         private string _markingState;
         #endregion
         #region Private Variables
-
+        Coroutine currentCoroutine;
         #endregion
         #region Structs
         [Serializable]
@@ -59,11 +61,13 @@ namespace ImageAnnotation.Samples.DirectMode
         #region Public Functions
         public void StartMarking()
         {
-            StartCoroutine(PuzzleCoroutine());
+            if(currentCoroutine != null)
+                StopCoroutine(currentCoroutine);
+            currentCoroutine = StartCoroutine(PuzzleCoroutine());
         }
         #endregion
 
-        
+
         #region Private Functions
         IEnumerator PuzzleCoroutine()
         {
@@ -99,6 +103,6 @@ namespace ImageAnnotation.Samples.DirectMode
             yield return new WaitUntil(() => scoreRequest.isDone);
             OnPuzzleDone.Invoke();
         }
-    	#endregion
+        #endregion
     }
 }
