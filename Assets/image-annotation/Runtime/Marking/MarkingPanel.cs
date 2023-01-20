@@ -98,6 +98,7 @@ namespace ImageAnnotation.Marking
 		/// <summary>
 		/// Skips the currently shown image, given the reason
 		/// </summary>
+		/// <param name="reason">The Reason for the Skip. The Server will only accept values from this enum.</param>
 		public void SkipImage(SkipReason reason)
 		{
 			if (_skipImage == null)
@@ -113,6 +114,15 @@ namespace ImageAnnotation.Marking
 			{
 				_markingObject.SetActive(false);
 			}
+		}
+		/// <summary>
+		/// Skips the currently shown image, given the reason
+		/// </summary>
+		/// <param name="reasonString">The SkipReason as a string to work with UnityEvents Must be one of the <c>SkipReason</c> Enum Values</param>
+		public void SkipImage(string reasonString)
+		{
+			var reason = Enum.Parse<SkipReason>(reasonString);
+			SkipImage(reason);
 		}
 		#endregion
 

@@ -117,6 +117,9 @@ graph
     end
     subgraph CustomCode2 [CustomCode]
     BTN_Submit[Submit Button]
+    BTN_Skip[Skip Button]
+    PNL_Skip[Skip Panel]
+    BTN_SkipReason[Skipreason Buttons]
     end
     
     PMC-->|uses| SC
@@ -130,4 +133,7 @@ graph
     MM-->|shifts and zooms|RT
     BTN_Submit-->|"FinishMarking() submits marked craters"|MP
     PMC-->|"OnPuzzleDone event is called and reports score"|SCORE
+    BTN_Skip-->|"opens via GameObject.SetActive()"|PNL_Skip
+    PNL_Skip-->|"shows"| BTN_SkipReason
+    BTN_SkipReason-->|"Calls SkipImage(reason)"|MP
 ```

@@ -58,38 +58,54 @@ namespace ImageAnnotation.Client
             {
                 public int id;
                 public string image;
+                public bool wasSkipped;
             }
             public Slice[] slices;
 		}
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		[Serializable]
-        public struct SolvedPuzzle
+		public struct SolvedPuzzle
 		{
 			[EditorBrowsable(EditorBrowsableState.Never)]
 			[Serializable]
-            public struct Slice
-            {
-                public int id;
-                public string image;
+			public struct Slice
+			{
+				public int id;
+				public string image;
+                public bool wasSkipped;
 				[EditorBrowsable(EditorBrowsableState.Never)]
-				[Serializable] 
-                public struct Circle
-                {
-                    public float x;
-                    public float y;
-                    public float radius;
-                }
-                public Circle[] circles;
-            }
-            public List<Slice> slices;
-            public string user;
-        }
+				[Serializable]
+				public struct Circle
+				{
+					public float x;
+					public float y;
+					public float radius;
+				}
+				public Circle[] circles;
+			}
+			public List<Slice> slices;
+			public string user;
+		}
+		[EditorBrowsable(EditorBrowsableState.Never)]
+		[Serializable]
+		public struct SkipRequest
+		{
+			public string image;
+			public string reason;
+			public string user;
+		}
+		[EditorBrowsable(EditorBrowsableState.Never)]
+		[Serializable]
+		public struct SkipResponse
+		{
+			public string newImage;
+		}
 
-        /// <summary>
-        /// A Score Object holding the score data calculated by the server.
-        /// It is sent via the <c>OnPuzzleDone</c> event
-        /// </summary>
-        [Serializable]
+		/// <summary>
+		/// A Score Object holding the score data calculated by the server.
+		/// It is sent via the <c>OnPuzzleDone</c> event
+		/// </summary>
+		[Serializable]
         public struct PuzzleScore
         {
             [Serializable]
@@ -183,6 +199,7 @@ namespace ImageAnnotation.Client
                     var solvedSlice = new SolvedPuzzle.Slice();
                     solvedSlice.image = slice.image;
                     solvedSlice.id = slice.id;
+                    solvedSlice.wasSkipped = slice.wasSkipped;
                     var circles = new SolvedPuzzle.Slice.Circle[entries.Length];
                     for (int i = 0; i < entries.Length; i++)
                     {
@@ -206,8 +223,21 @@ namespace ImageAnnotation.Client
 				}
                 if(skipped)
                 {
-                    //TODO: Handle Skipping
-                }
+                    var skipData = new SkipRequest
+                    {
+                        image = slice.image,
+                        user = ServerConnection.Instance.UserName,
+                        reason = skipReason.ToServerString()
+					};
+
+                    var skipRequest = new PostObjectJson<SkipResponse>("skip/", JsonUtility.ToJson(skipData));
+					yield return new WaitUntil(() => skipRequest.isDone);
+                    var response = skipRequest.GetResult();
+                    slice.image = response.newImage;
+                    slice.wasSkipped = true;
+					puzzle.slices[sliceIndex] = slice;
+
+				}
             }
             var solvedJson = JsonUtility.ToJson(solved);
             var scoreRequest = new PostObjectJson<PuzzleScore>("submit/", solvedJson);
