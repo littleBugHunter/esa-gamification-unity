@@ -74,6 +74,12 @@ references:
   commentId: F:ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.image
   fullName: ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.image
   nameWithType: PuzzleModeClient.Puzzle.Slice.image
+- uid: ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.wasSkipped
+  name: wasSkipped
+  href: api/ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.html#ImageAnnotation_Client_PuzzleModeClient_Puzzle_Slice_wasSkipped
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.wasSkipped
+  fullName: ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.wasSkipped
+  nameWithType: PuzzleModeClient.Puzzle.Slice.wasSkipped
 - uid: ImageAnnotation.Client.PuzzleModeClient.Puzzle.slices
   name: slices
   href: api/ImageAnnotation.Client.PuzzleModeClient.Puzzle.html#ImageAnnotation_Client_PuzzleModeClient_Puzzle_slices
@@ -170,6 +176,42 @@ references:
   commentId: F:ImageAnnotation.Client.PuzzleModeClient.PuzzleSize
   fullName: ImageAnnotation.Client.PuzzleModeClient.PuzzleSize
   nameWithType: PuzzleModeClient.PuzzleSize
+- uid: ImageAnnotation.Client.PuzzleModeClient.SkipRequest
+  name: PuzzleModeClient.SkipRequest
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SkipRequest.html
+  commentId: T:ImageAnnotation.Client.PuzzleModeClient.SkipRequest
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SkipRequest
+  nameWithType: PuzzleModeClient.SkipRequest
+- uid: ImageAnnotation.Client.PuzzleModeClient.SkipRequest.image
+  name: image
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SkipRequest.html#ImageAnnotation_Client_PuzzleModeClient_SkipRequest_image
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.SkipRequest.image
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SkipRequest.image
+  nameWithType: PuzzleModeClient.SkipRequest.image
+- uid: ImageAnnotation.Client.PuzzleModeClient.SkipRequest.reason
+  name: reason
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SkipRequest.html#ImageAnnotation_Client_PuzzleModeClient_SkipRequest_reason
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.SkipRequest.reason
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SkipRequest.reason
+  nameWithType: PuzzleModeClient.SkipRequest.reason
+- uid: ImageAnnotation.Client.PuzzleModeClient.SkipRequest.user
+  name: user
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SkipRequest.html#ImageAnnotation_Client_PuzzleModeClient_SkipRequest_user
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.SkipRequest.user
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SkipRequest.user
+  nameWithType: PuzzleModeClient.SkipRequest.user
+- uid: ImageAnnotation.Client.PuzzleModeClient.SkipResponse
+  name: PuzzleModeClient.SkipResponse
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SkipResponse.html
+  commentId: T:ImageAnnotation.Client.PuzzleModeClient.SkipResponse
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SkipResponse
+  nameWithType: PuzzleModeClient.SkipResponse
+- uid: ImageAnnotation.Client.PuzzleModeClient.SkipResponse.newImage
+  name: newImage
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SkipResponse.html#ImageAnnotation_Client_PuzzleModeClient_SkipResponse_newImage
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.SkipResponse.newImage
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SkipResponse.newImage
+  nameWithType: PuzzleModeClient.SkipResponse.newImage
 - uid: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle
   name: PuzzleModeClient.SolvedPuzzle
   href: api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.html
@@ -224,6 +266,12 @@ references:
   commentId: F:ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.image
   fullName: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.image
   nameWithType: PuzzleModeClient.SolvedPuzzle.Slice.image
+- uid: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.wasSkipped
+  name: wasSkipped
+  href: api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.html#ImageAnnotation_Client_PuzzleModeClient_SolvedPuzzle_Slice_wasSkipped
+  commentId: F:ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.wasSkipped
+  fullName: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.wasSkipped
+  nameWithType: PuzzleModeClient.SolvedPuzzle.Slice.wasSkipped
 - uid: ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.slices
   name: slices
   href: api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.html#ImageAnnotation_Client_PuzzleModeClient_SolvedPuzzle_slices
@@ -605,6 +653,61 @@ references:
   commentId: F:ImageAnnotation.Client.ServerConnection.UserName
   fullName: ImageAnnotation.Client.ServerConnection.UserName
   nameWithType: ServerConnection.UserName
+- uid: ImageAnnotation.Client.SkipReason
+  name: SkipReason
+  href: api/ImageAnnotation.Client.SkipReason.html
+  commentId: T:ImageAnnotation.Client.SkipReason
+  fullName: ImageAnnotation.Client.SkipReason
+  nameWithType: SkipReason
+- uid: ImageAnnotation.Client.SkipReason.ImageCorrupted
+  name: ImageCorrupted
+  href: api/ImageAnnotation.Client.SkipReason.html#ImageAnnotation_Client_SkipReason_ImageCorrupted
+  commentId: F:ImageAnnotation.Client.SkipReason.ImageCorrupted
+  fullName: ImageAnnotation.Client.SkipReason.ImageCorrupted
+  nameWithType: SkipReason.ImageCorrupted
+- uid: ImageAnnotation.Client.SkipReason.Other
+  name: Other
+  href: api/ImageAnnotation.Client.SkipReason.html#ImageAnnotation_Client_SkipReason_Other
+  commentId: F:ImageAnnotation.Client.SkipReason.Other
+  fullName: ImageAnnotation.Client.SkipReason.Other
+  nameWithType: SkipReason.Other
+- uid: ImageAnnotation.Client.SkipReason.TooBright
+  name: TooBright
+  href: api/ImageAnnotation.Client.SkipReason.html#ImageAnnotation_Client_SkipReason_TooBright
+  commentId: F:ImageAnnotation.Client.SkipReason.TooBright
+  fullName: ImageAnnotation.Client.SkipReason.TooBright
+  nameWithType: SkipReason.TooBright
+- uid: ImageAnnotation.Client.SkipReason.TooDark
+  name: TooDark
+  href: api/ImageAnnotation.Client.SkipReason.html#ImageAnnotation_Client_SkipReason_TooDark
+  commentId: F:ImageAnnotation.Client.SkipReason.TooDark
+  fullName: ImageAnnotation.Client.SkipReason.TooDark
+  nameWithType: SkipReason.TooDark
+- uid: ImageAnnotation.Client.SkipReason.TooManyCraters
+  name: TooManyCraters
+  href: api/ImageAnnotation.Client.SkipReason.html#ImageAnnotation_Client_SkipReason_TooManyCraters
+  commentId: F:ImageAnnotation.Client.SkipReason.TooManyCraters
+  fullName: ImageAnnotation.Client.SkipReason.TooManyCraters
+  nameWithType: SkipReason.TooManyCraters
+- uid: ImageAnnotation.Client.SkipReasonExtensions
+  name: SkipReasonExtensions
+  href: api/ImageAnnotation.Client.SkipReasonExtensions.html
+  commentId: T:ImageAnnotation.Client.SkipReasonExtensions
+  fullName: ImageAnnotation.Client.SkipReasonExtensions
+  nameWithType: SkipReasonExtensions
+- uid: ImageAnnotation.Client.SkipReasonExtensions.ToServerString(ImageAnnotation.Client.SkipReason)
+  name: ToServerString(SkipReason)
+  href: api/ImageAnnotation.Client.SkipReasonExtensions.html#ImageAnnotation_Client_SkipReasonExtensions_ToServerString_ImageAnnotation_Client_SkipReason_
+  commentId: M:ImageAnnotation.Client.SkipReasonExtensions.ToServerString(ImageAnnotation.Client.SkipReason)
+  fullName: ImageAnnotation.Client.SkipReasonExtensions.ToServerString(ImageAnnotation.Client.SkipReason)
+  nameWithType: SkipReasonExtensions.ToServerString(SkipReason)
+- uid: ImageAnnotation.Client.SkipReasonExtensions.ToServerString*
+  name: ToServerString
+  href: api/ImageAnnotation.Client.SkipReasonExtensions.html#ImageAnnotation_Client_SkipReasonExtensions_ToServerString_
+  commentId: Overload:ImageAnnotation.Client.SkipReasonExtensions.ToServerString
+  isSpec: "True"
+  fullName: ImageAnnotation.Client.SkipReasonExtensions.ToServerString
+  nameWithType: SkipReasonExtensions.ToServerString
 - uid: ImageAnnotation.Marking
   name: ImageAnnotation.Marking
   href: api/ImageAnnotation.Marking.html
@@ -849,12 +952,37 @@ references:
   isSpec: "True"
   fullName: ImageAnnotation.Marking.MarkingPanel.Open
   nameWithType: MarkingPanel.Open
-- uid: ImageAnnotation.Marking.MarkingPanel.StartMarking(Texture2D,ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate)
-  name: StartMarking(Texture2D, MarkingPanel.SubmitCratersDelegate)
-  href: api/ImageAnnotation.Marking.MarkingPanel.html#ImageAnnotation_Marking_MarkingPanel_StartMarking_Texture2D_ImageAnnotation_Marking_MarkingPanel_SubmitCratersDelegate_
-  commentId: M:ImageAnnotation.Marking.MarkingPanel.StartMarking(Texture2D,ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate)
-  fullName: ImageAnnotation.Marking.MarkingPanel.StartMarking(Texture2D, ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate)
-  nameWithType: MarkingPanel.StartMarking(Texture2D, MarkingPanel.SubmitCratersDelegate)
+- uid: ImageAnnotation.Marking.MarkingPanel.SkipImage(ImageAnnotation.Client.SkipReason)
+  name: SkipImage(SkipReason)
+  href: api/ImageAnnotation.Marking.MarkingPanel.html#ImageAnnotation_Marking_MarkingPanel_SkipImage_ImageAnnotation_Client_SkipReason_
+  commentId: M:ImageAnnotation.Marking.MarkingPanel.SkipImage(ImageAnnotation.Client.SkipReason)
+  fullName: ImageAnnotation.Marking.MarkingPanel.SkipImage(ImageAnnotation.Client.SkipReason)
+  nameWithType: MarkingPanel.SkipImage(SkipReason)
+- uid: ImageAnnotation.Marking.MarkingPanel.SkipImage(System.String)
+  name: SkipImage(String)
+  href: api/ImageAnnotation.Marking.MarkingPanel.html#ImageAnnotation_Marking_MarkingPanel_SkipImage_System_String_
+  commentId: M:ImageAnnotation.Marking.MarkingPanel.SkipImage(System.String)
+  fullName: ImageAnnotation.Marking.MarkingPanel.SkipImage(System.String)
+  nameWithType: MarkingPanel.SkipImage(String)
+- uid: ImageAnnotation.Marking.MarkingPanel.SkipImage*
+  name: SkipImage
+  href: api/ImageAnnotation.Marking.MarkingPanel.html#ImageAnnotation_Marking_MarkingPanel_SkipImage_
+  commentId: Overload:ImageAnnotation.Marking.MarkingPanel.SkipImage
+  isSpec: "True"
+  fullName: ImageAnnotation.Marking.MarkingPanel.SkipImage
+  nameWithType: MarkingPanel.SkipImage
+- uid: ImageAnnotation.Marking.MarkingPanel.SkipImageDelegate
+  name: MarkingPanel.SkipImageDelegate
+  href: api/ImageAnnotation.Marking.MarkingPanel.SkipImageDelegate.html
+  commentId: T:ImageAnnotation.Marking.MarkingPanel.SkipImageDelegate
+  fullName: ImageAnnotation.Marking.MarkingPanel.SkipImageDelegate
+  nameWithType: MarkingPanel.SkipImageDelegate
+- uid: ImageAnnotation.Marking.MarkingPanel.StartMarking(Texture2D,ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate,ImageAnnotation.Marking.MarkingPanel.SkipImageDelegate)
+  name: StartMarking(Texture2D, MarkingPanel.SubmitCratersDelegate, MarkingPanel.SkipImageDelegate)
+  href: api/ImageAnnotation.Marking.MarkingPanel.html#ImageAnnotation_Marking_MarkingPanel_StartMarking_Texture2D_ImageAnnotation_Marking_MarkingPanel_SubmitCratersDelegate_ImageAnnotation_Marking_MarkingPanel_SkipImageDelegate_
+  commentId: M:ImageAnnotation.Marking.MarkingPanel.StartMarking(Texture2D,ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate,ImageAnnotation.Marking.MarkingPanel.SkipImageDelegate)
+  fullName: ImageAnnotation.Marking.MarkingPanel.StartMarking(Texture2D, ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate, ImageAnnotation.Marking.MarkingPanel.SkipImageDelegate)
+  nameWithType: MarkingPanel.StartMarking(Texture2D, MarkingPanel.SubmitCratersDelegate, MarkingPanel.SkipImageDelegate)
 - uid: ImageAnnotation.Marking.MarkingPanel.StartMarking*
   name: StartMarking
   href: api/ImageAnnotation.Marking.MarkingPanel.html#ImageAnnotation_Marking_MarkingPanel_StartMarking_

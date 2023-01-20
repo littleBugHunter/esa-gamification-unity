@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace ImageAnnotation.Client
+    <title>Delegate MarkingPanel.SkipImageDelegate
  </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace ImageAnnotation.Client
+    <meta name="title" content="Delegate MarkingPanel.SkipImageDelegate
  ">
     <meta name="generator" content="docfx ">
   
@@ -68,56 +68,36 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ImageAnnotation.Client">
+            <article class="content wrap" id="_content" data-uid="ImageAnnotation.Marking.MarkingPanel.SkipImageDelegate">
 
-  <h1 id="ImageAnnotation_Client" data-uid="ImageAnnotation.Client" class="text-break">Namespace ImageAnnotation.Client
+
+  <h1 id="ImageAnnotation_Marking_MarkingPanel_SkipImageDelegate" data-uid="ImageAnnotation.Marking.MarkingPanel.SkipImageDelegate" class="text-break">Delegate MarkingPanel.SkipImageDelegate
 </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
-</h3>
-      <h4><a class="xref" href="ImageAnnotation.Client.NameGenerator.html">NameGenerator</a></h4>
-      <section></section>
-      <h4><a class="xref" href="ImageAnnotation.Client.PuzzleModeClient.html">PuzzleModeClient</a></h4>
-      <section><p>The PuzzleModeClient Manages the Execution of Puzzle Mode Marking.
-Puzzle Mode Marking presents the Player with an Array of small known and unknown Images they have to mark in succession.
-After all Images have been marked, they are sent off to the server, which then evaluates the known images to send back a Score</p>
-</section>
-      <h4><a class="xref" href="ImageAnnotation.Client.PuzzleModeClient.PuzzleDoneEvent.html">PuzzleModeClient.PuzzleDoneEvent</a></h4>
-      <section></section>
-      <h4><a class="xref" href="ImageAnnotation.Client.ServerConnection.html">ServerConnection</a></h4>
-      <section></section>
-      <h4><a class="xref" href="ImageAnnotation.Client.SkipReasonExtensions.html">SkipReasonExtensions</a></h4>
-      <section></section>
-    <h3 id="structs">Structs
-</h3>
-      <h4><a class="xref" href="ImageAnnotation.Client.PuzzleModeClient.Puzzle.html">PuzzleModeClient.Puzzle</a></h4>
-      <section></section>
-      <h4><a class="xref" href="ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.html">PuzzleModeClient.Puzzle.Slice</a></h4>
-      <section></section>
-      <h4><a class="xref" href="ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.html">PuzzleModeClient.PuzzleScore</a></h4>
-      <section><p>A Score Object holding the score data calculated by the server.
-It is sent via the <code>OnPuzzleDone</code> event</p>
-</section>
-      <h4><a class="xref" href="ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.html">PuzzleModeClient.PuzzleScore.AbsoluteResults</a></h4>
-      <section></section>
-      <h4><a class="xref" href="ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.html">PuzzleModeClient.PuzzleScore.RelativeResults</a></h4>
-      <section></section>
-      <h4><a class="xref" href="ImageAnnotation.Client.PuzzleModeClient.SkipRequest.html">PuzzleModeClient.SkipRequest</a></h4>
-      <section></section>
-      <h4><a class="xref" href="ImageAnnotation.Client.PuzzleModeClient.SkipResponse.html">PuzzleModeClient.SkipResponse</a></h4>
-      <section></section>
-      <h4><a class="xref" href="ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.html">PuzzleModeClient.SolvedPuzzle</a></h4>
-      <section></section>
-      <h4><a class="xref" href="ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.html">PuzzleModeClient.SolvedPuzzle.Slice</a></h4>
-      <section></section>
-      <h4><a class="xref" href="ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.html">PuzzleModeClient.SolvedPuzzle.Slice.Circle</a></h4>
-      <section></section>
-    <h3 id="enums">Enums
-</h3>
-      <h4><a class="xref" href="ImageAnnotation.Client.SkipReason.html">SkipReason</a></h4>
-      <section></section>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ImageAnnotation.Marking.html">ImageAnnotation.Marking</a></h6>
+  <h6><strong>Assembly</strong>: paul-nasdalack.image-annotation.dll</h6>
+  <h5 id="ImageAnnotation_Marking_MarkingPanel_SkipImageDelegate_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public delegate void SkipImageDelegate(SkipReason reason);</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ImageAnnotation.Client.SkipReason.html">SkipReason</a></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
 
@@ -125,6 +105,12 @@ It is sent via the <code>OnPuzzleDone</code> event</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/littleBugHunter/esa-gamification-unity/new/main/apiSpec/new?filename=ImageAnnotation_Marking_MarkingPanel_SkipImageDelegate.md&amp;value=---%0Auid%3A%20ImageAnnotation.Marking.MarkingPanel.SkipImageDelegate%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/littleBugHunter/esa-gamification-unity/blob/main/Assets/image-annotation/Runtime/Marking/MarkingPanel.cs/#L28" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.Puzzle.Slice.html",
-          "hash": "UT89eC2j7x+ZZZlNsknP0nSt3p8HZW21z94jxfrENt4="
+          "hash": "0q2/pUiddx7MxdNWpL7Oz+UOp4ejQTTjic2qqaxjBBc="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.Puzzle.html",
-          "hash": "hSqZ36nia4PKO9Ip0oiHtpI/qxI2meQ3HxeBwNnL5IU="
+          "hash": "cLYGzgwrV4snVD1OO/91+nQjUPLg5tPc/4OO+o3P1m8="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.AbsoluteResults.html",
-          "hash": "80RFkhGWssHDJ6wysKbjzp+wfT7cUGbOdG6CO3m3NLE="
+          "hash": "EUVacRLIMXn1CXZFCNKk1Car/c+TkANnFzG3lZx9ijc="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.RelativeResults.html",
-          "hash": "4D5IrBuAiwZaMEj0GWQwCcsZqTVk8bwgGeXiNGnlfM4="
+          "hash": "pai1MgMKZ103xr2K/CT+uzSwvkY1dEVGTQ6whZQ8iVY="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,31 @@
       "output": {
         ".html": {
           "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.PuzzleScore.html",
-          "hash": "OR3psSBua0VNKif5oIkLb5OYR4vojdJeVv4VF1OTg1o="
+          "hash": "75peAXyiWDPTrkMbnFgV+YOSNVDU8xrjRBTaBxuNKzM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.SkipRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.SkipRequest.html",
+          "hash": "tOUvgxPgTic+vdMmG+rXY1y7SFADlIMeGx/S5+6+Oa8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.SkipResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.SkipResponse.html",
+          "hash": "5a7mYjWGOJsCSmLo3Ncy+S7mTEYtMveE9NFI9WujagI="
         }
       },
       "is_incremental": false,
@@ -93,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.Circle.html",
-          "hash": "nGopMsSVFQJqWBVsD0oA6xcOEGsYAZSVe1/IkSA5U4s="
+          "hash": "Sfv4iX9U8I6PDsuYQtdI6EXyYvb7mQQYdJvKFr9SD3Y="
         }
       },
       "is_incremental": false,
@@ -105,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.Slice.html",
-          "hash": "EMd2/cQI4lYoqGuNdyBr8Z7oG0NEM87VKPZC3K2sI84="
+          "hash": "GCI36vOkXu60OMWWZXsoDvUtWLW8vKKxRVly0zYZqBo="
         }
       },
       "is_incremental": false,
@@ -117,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.SolvedPuzzle.html",
-          "hash": "eucIQk0YjxKkaM/dhSjMtHXhCpN7W1R3vFUORgSm84I="
+          "hash": "8l2AVBxgp0gNEOS1Py4YP9IZTvxCIJK2qaC1jL7dU4o="
         }
       },
       "is_incremental": false,
@@ -129,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ImageAnnotation.Client.PuzzleModeClient.html",
-          "hash": "yFmxGv3HXAfwEB7G/mAOcAEqrandxxzxJVpyuSXtN3s="
+          "hash": "sptCFLQhP46HoT2cGnWaOP8V7su+pnCqlZSnLNyxdx0="
         }
       },
       "is_incremental": false,
@@ -245,11 +269,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.SkipReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.SkipReason.html",
+          "hash": "QeKj+kXcSi5rq0cZbxEnmuQVLj7sa9WfT1LV5gQDNRA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Client.SkipReasonExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Client.SkipReasonExtensions.html",
+          "hash": "Px9MMuw6hm+LWqRFKta97f8mCeL4aFeCl6jofgzuckc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ImageAnnotation.Client.yml",
       "output": {
         ".html": {
           "relative_path": "api/ImageAnnotation.Client.html",
-          "hash": "WVy2FlIliWsNHDcPJV+9jLZlM5dEUDGQk/KSMhwjqj8="
+          "hash": "mUOoFtFww72hlaFzPEPSoNg9pjq3f/640/jeW7hMwwo="
         }
       },
       "is_incremental": false,
@@ -317,11 +365,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ImageAnnotation.Marking.MarkingPanel.SkipImageDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ImageAnnotation.Marking.MarkingPanel.SkipImageDelegate.html",
+          "hash": "Q1ZIjxJoqulZtOTn01pLb2m95RVzGfj4FiVRyNf+YQE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate.yml",
       "output": {
         ".html": {
           "relative_path": "api/ImageAnnotation.Marking.MarkingPanel.SubmitCratersDelegate.html",
-          "hash": "UoSl9d5idW0VrfmKY2EwEYUIdPuzbI426pBYx0Nqfh0="
+          "hash": "DuBZmrQ336jax/+XEScBh05Aw+ZzIZJtsxIcVRCd2D8="
         }
       },
       "is_incremental": false,
@@ -333,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ImageAnnotation.Marking.MarkingPanel.html",
-          "hash": "VCHKmgosQLYo/CELoFrdIy54FK/cpX0vANVtwjJA6gU="
+          "hash": "EgL1fDXOnjze0W1CQfkT9jpYU1+zClZ5efZfnZe52O0="
         }
       },
       "is_incremental": false,
@@ -393,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ImageAnnotation.Marking.html",
-          "hash": "wRlzvM9kXT7ctOrd5uPobQy0sfPPKc7UpPaPewA1ppM="
+          "hash": "iqSBoRz5FQKfEidJMZVUUSgk14/SR4N8mbUxEuPCZGU="
         }
       },
       "is_incremental": false,
@@ -441,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "haLTjj+B/TZiyDWpt/XLmidxMkJypzOYFNtTsbsRxxA="
+          "hash": "eApJ9ci2ChfLtD70GAVlt3o8YFxkncC5H1WT0itASes="
         }
       },
       "is_incremental": false,
@@ -516,7 +576,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 35,
+          "total_file_count": 40,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
