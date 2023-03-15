@@ -31,7 +31,8 @@ namespace ImageAnnotation.Client.Requests
             byte[] jsonBytes = new System.Text.UTF8Encoding().GetBytes(json);
             request.uploadHandler = new UploadHandlerRaw(jsonBytes);
             request.downloadHandler = new DownloadHandlerBuffer();
-            request.SetRequestHeader("Content-Type", "application/json");
+			request.disposeDownloadHandlerOnDispose = true;
+			request.SetRequestHeader("Content-Type", "application/json");
             this.getResult = getResult;
         }
 
