@@ -20,6 +20,7 @@ namespace ImageAnnotation.Client.Requests
             var path = basePath + endpoint;
             this.request = new UnityWebRequest(path, "GET");
             this.request.downloadHandler = new DownloadHandlerBuffer();
+            this.request.disposeDownloadHandlerOnDispose = true;
             this.getResult = getResult;
             request.SendWebRequest();
         }
@@ -42,14 +43,16 @@ namespace ImageAnnotation.Client.Requests
             }
             this.request = new UnityWebRequest(path, "GET");
             this.request.downloadHandler = new DownloadHandlerBuffer();
-            this.getResult = getResult;
+			this.request.disposeDownloadHandlerOnDispose = true;
+			this.getResult = getResult;
             request.SendWebRequest();
         }
         public GetRequestWrapper(UnityWebRequest request, GetResultDelegate getResult)
         {
             this.request = request;
             this.request.downloadHandler = new DownloadHandlerBuffer();
-            this.getResult = getResult;
+			this.request.disposeDownloadHandlerOnDispose = true;
+			this.getResult = getResult;
         }
 
         public bool isDone => request.isDone;

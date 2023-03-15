@@ -62,6 +62,7 @@
     <Compile Include="Assets\image-annotation\Runtime\Client\Requests\GetRequestWrapper.cs" />
     <Compile Include="Assets\image-annotation\Runtime\Marking\MapMovement.cs" />
     <Compile Include="Assets\image-annotation\Runtime\Client\NameGenerator.cs" />
+    <Compile Include="Assets\image-annotation\Runtime\Marking\ClickDragMarker.cs" />
     <Compile Include="Assets\image-annotation\Runtime\Marking\CenterMarker.cs" />
     <Compile Include="Assets\image-annotation\Runtime\Client\PuzzleModeClient.cs" />
     <Compile Include="Assets\image-annotation\Runtime\Client\ServerConnection.cs" />
