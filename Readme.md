@@ -1,6 +1,10 @@
 # Image Annotation
 
-A package to annotate Images for the ESA Moon Lander Project. This Package provides functions to interface with the Server and multiple example Marking Techniques, like Maps Like Marking and Two Finger Marking
+A package to annotate Images for the Moon Lander Gamification Project. This Package provides functions to interface with the Server and multiple example Marking Techniques, like Maps Like Marking and Two Finger Marking
+
+## DISCLAIMER
+
+This project was created at the Hochschule Darmstadt in order to create a first feasability study for a proposal at the European Space Agency. The project itself has no direct ties to the ESA.
 
 ## Links
 
